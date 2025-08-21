@@ -1,0 +1,682 @@
+[
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 42,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Consider a pyramid $O P Q R S$ located in the first octant $(x \\geq 0, y \\geq 0, z \\geq 0)$ with $O$ as origin, and $O P$ and $O R$ along the $x$-axis and the $y$-axis, respectively. The base $O P Q R$ of the pyramid is a square with $O P=3$. The point $S$ is directly above the mid-point $T$ of diagonal $O Q$ such that $T S=3$. Then\n\n(A) the acute angle between $O Q$ and $O S$ is $\\frac{\\pi}{3}$\n\n(B) the equation of the plane containing the triangle $O Q S$ is $x-y=0$\n\n(C) the length of the perpendicular from $P$ to the plane containing the triangle $O Q S$ is $\\frac{3}{\\sqrt{2}}$\n\n(D) the perpendicular distance from $O$ to the straight line containing $R S$ is $\\sqrt{\\frac{15}{2}}$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f:(0, \\infty) \\rightarrow \\mathbb{R}$ be a differentiable function such that $f^{\\prime}(x)=2-\\frac{f(x)}{x}$ for all $x \\in(0, \\infty)$ and $f(1) \\neq 1$. Then\n\n(A) $\\lim _{x \\rightarrow 0+} f^{\\prime}\\left(\\frac{1}{x}\\right)=1$\n\n(B) $\\lim _{x \\rightarrow 0+} x f\\left(\\frac{1}{x}\\right)=2$\n\n(C) $\\lim _{x \\rightarrow 0+} x^{2} f^{\\prime}(x)=0$\n\n(D) $|f(x)| \\leq 2$ for all $x \\in(0,2)$",
+    "gold": "A"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $P=\\left[\\begin{array}{ccc}3 & -1 & -2 \\\\ 2 & 0 & \\alpha \\\\ 3 & -5 & 0\\end{array}\\right]$, where $\\alpha \\in \\mathbb{R}$. Suppose $Q=\\left[q_{i j}\\right]$ is a matrix such that $P Q=k I$, where $k \\in \\mathbb{R}, k \\neq 0$ and $I$ is the identity matrix of order 3 . If $q_{23}=-\\frac{k}{8}$ and $\\operatorname{det}(Q)=\\frac{k^{2}}{2}$, then\n\n(A) $\\alpha=0, k=8$\n\n(B) $4 \\alpha-k+8=0$\n\n(C) $\\operatorname{det}(P \\operatorname{adj}(Q))=2^{9}$\n\n(D) $\\operatorname{det}(Q \\operatorname{adj}(P))=2^{13}$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "In a triangle $X Y Z$, let $x, y, z$ be the lengths of sides opposite to the angles $X, Y, Z$, respectively, and $2 s=x+y+z$. If $\\frac{s-x}{4}=\\frac{s-y}{3}=\\frac{s-z}{2}$ and area of incircle of the triangle $X Y Z$ is $\\frac{8 \\pi}{3}$, then\n\n(A) area of the triangle $X Y Z$ is $6 \\sqrt{6}$\n\n(B) the radius of circumcircle of the triangle $X Y Z$ is $\\frac{35}{6} \\sqrt{6}$\n\n(C) $\\sin \\frac{X}{2} \\sin \\frac{Y}{2} \\sin \\frac{Z}{2}=\\frac{4}{35}$\n\n(D) $\\sin ^{2}\\left(\\frac{X+Y}{2}\\right)=\\frac{3}{5}$",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 46,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "A solution curve of the differential equation $\\left(x^{2}+x y+4 x+2 y+4\\right) \\frac{d y}{d x}-y^{2}=0, x>0$, passes through the point $(1,3)$. Then the solution curve\n\n(A) intersects $y=x+2$ exactly at one point\n\n(B) intersects $y=x+2$ exactly at two points\n\n(C) intersects $y=(x+2)^{2}$\n\n(D) does NO'T intersect $y=(x+3)^{2}$",
+    "gold": "AD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}, \\quad g: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $h: \\mathbb{R} \\rightarrow \\mathbb{R}$ be differentiable functions such that $f(x)=x^{3}+3 x+2, g(f(x))=x$ and $h(g(g(x)))=x$ for all $x \\in \\mathbb{R}$. Then\n\n(A) $\\quad g^{\\prime}(2)=\\frac{1}{15}$\n\n(B) $h^{\\prime}(1)=666$\n\n(C) $h(0)=16$\n\n(D) $h(g(3))=36$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "The circle $C_{1}: x^{2}+y^{2}=3$, with centre at $O$, intersects the parabola $x^{2}=2 y$ at the point $P$ in the first quadrant. Let the tangent to the circle $C_{1}$ at $P$ touches other two circles $C_{2}$ and $C_{3}$ at $R_{2}$ and $R_{3}$, respectively. Suppose $C_{2}$ and $C_{3}$ have equal radii $2 \\sqrt{3}$ and centres $Q_{2}$ and $Q_{3}$, respectively. If $Q_{2}$ and $Q_{3}$ lie on the $y$-axis, then\n\n(A) $Q_{2} Q_{3}=12$\n\n(B) $\\quad R_{2} R_{3}=4 \\sqrt{6}$\n\n(C) area of the triangle $O R_{2} R_{3}$ is $6 \\sqrt{2}$\n\n(D) area of the triangle $P Q_{2} Q_{3}$ is $4 \\sqrt{2}$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 49,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $R S$ be the diameter of the circle $x^{2}+y^{2}=1$, where $S$ is the point $(1,0)$. Let $P$ be a variable point (other than $R$ and $S$ ) on the circle and tangents to the circle at $S$ and $P$ meet at the point $Q$. The normal to the circle at $P$ intersects a line drawn through $Q$ parallel to $R S$ at point $E$. Then the locus of $E$ passes through the point(s)\n\n(A) $\\left(\\frac{1}{3}, \\frac{1}{\\sqrt{3}}\\right)$\n\n(B) $\\left(\\frac{1}{4}, \\frac{1}{2}\\right)$\n\n(C) $\\left(\\frac{1}{3},-\\frac{1}{\\sqrt{3}}\\right)$\n\n(D) $\\left(\\frac{1}{4},-\\frac{1}{2}\\right)$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a, b \\in \\mathbb{R}$ and $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by $f(x)=a \\cos \\left(\\left|x^{3}-x\\right|\\right)+b|x| \\sin \\left(\\left|x^{3}+x\\right|\\right)$. Then $f$ is\n\n(A) differentiable at $x=0$ if $a=0$ and $b=1$\n\n(B) differentiable at $x=1$ if $a=1$ and $b=0$\n\n(C) NOT differentiable at $x=0$ if $a=1$ and $b=0$\n\n(D) NOT differentiable at $x=1$ if $a=1$ and $b=1$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 45,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow(0, \\infty)$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be twice differentiable functions such that $f^{\\prime \\prime}$ and $g^{\\prime \\prime}$ are continuous functions on $\\mathbb{R}$. Suppose $f^{\\prime}(2)=g(2)=0, f^{\\prime \\prime}(2) \\neq 0$ and $g^{\\prime}(2) \\neq 0$. If $\\lim _{x \\rightarrow 2} \\frac{f(x) g(x)}{f^{\\prime}(x) g^{\\prime}(x)}=1$, then\n\n(A) $f$ has a local minimum at $x=2$\n\n(B) f has a local maximum at $x=2$\n\n(C) $f^{\\prime \\prime}(2)>f(2)$\n\n(D) $f(x)-f^{\\prime \\prime}(x)=0$ for at least one $x \\in \\mathbb{R}$",
+    "gold": "AD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f:\\left[-\\frac{1}{2}, 2\\right] \\rightarrow \\mathbb{R}$ and $g:\\left[-\\frac{1}{2}, 2\\right] \\rightarrow \\mathbb{R}$ be functions defined by $f(x)=\\left[x^{2}-3\\right]$ and $g(x)=|x| f(x)+|4 x-7| f(x)$, where $[y]$ denotes the greatest integer less than or equal to $y$ for $y \\in \\mathbb{R}$. Then\n\n(A) $f$ is discontinuous exactly at three points in $\\left[-\\frac{1}{2}, 2\\right]$\n\n(B) $f$ is discontinuous exactly at four points in $\\left[-\\frac{1}{2}, 2\\right]$\n\n(C) $g$ is NOT differentiable exactly at four points in $\\left(-\\frac{1}{2}, 2\\right)$\n\n(D) $g$ is NOT differentiable exactly at five points in $\\left(-\\frac{1}{2}, 2\\right)$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a, b \\in \\mathbb{R}$ and $a^{2}+b^{2} \\neq 0$. Suppose $S=\\left\\{z \\in \\mathbb{C}: z=\\frac{1}{a+i b t}, t \\in \\mathbb{R}, t \\neq 0\\right\\}$, where $i=\\sqrt{-1}$. If $z=x+i y$ and $z \\in S$, then $(x, y)$ lies on\n\n(A) the circle with radius $\\frac{1}{2 a}$ and centre $\\left(\\frac{1}{2 a}, 0\\right)$ for $a>0, b \\neq 0$\n\n(B) the circle with radius $-\\frac{1}{2 a}$ and centre $\\left(-\\frac{1}{2 a}, 0\\right)$ for $a<0, b \\neq 0$\n\n(C) the $x$-axis for $a \\neq 0, b=0$\n\n(D) the $y$-axis for $a=0, b \\neq 0$",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $P$ be the point on the parabola $y^{2}=4 x$ which is at the shortest distance from the center $S$ of the circle $x^{2}+y^{2}-4 x-16 y+64=0$. Let $Q$ be the point on the circle dividing the line segment $S P$ internally. Then\n\n(A) $S P=2 \\sqrt{5}$\n\n(B) $S Q: Q P=(\\sqrt{5}+1): 2$\n\n(C) the $x$-intercept of the normal to the parabola at $P$ is 6\n\n(D) the slope of the tangent to the circle at $Q$ is $\\frac{1}{2}$",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 49,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a, \\lambda, \\mu \\in \\mathbb{R}$. Consider the system of linear equations\n\n\\[\n\\begin{aligned}\n\n& a x+2 y=\\lambda \\\\\n\n& 3 x-2 y=\\mu\n\n\\end{aligned}\n\\]\n\nWhich of the following statement(s) is(are) correct?\n\n(A) If $a=-3$, then the system has infinitely many solutions for all values of $\\lambda$ and $\\mu$\n\n(B) If $a \\neq-3$, then the system has a unique solution for all values of $\\lambda$ and $\\mu$\n\n(C) If $\\lambda+\\mu=0$, then the system has infinitely many solutions for $a=-3$\n\n(D) If $\\lambda+\\mu \\neq 0$, then the system has no solution for $\\alpha=-3$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 2",
+    "index": 50,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\hat{u}=u_{1} \\hat{i}+u_{2} \\hat{j}+u_{3} \\hat{k}$ be a unit vector in $\\mathbb{R}^{3}$ and $\\hat{w}=\\frac{1}{\\sqrt{6}}(\\hat{i}+\\hat{j}+2 \\hat{k})$. Given that there exists a vector $\\vec{v}$ in $\\mathbb{R}^{3}$ such that $|\\hat{u} \\times \\vec{v}|=1$ and $\\hat{w} \\cdot(\\hat{u} \\times \\vec{v})=1$. Which of the following statement\u00eds) is(are) correct?\n\n(A) There is exactly one choice for such $\\vec{v}$\n\n(B) There are infinitely many choices for such $\\vec{v}$\n\n(C) If $\\hat{u}$ lies in the $x y$-plane then $\\left|u_{1}\\right|=\\left|u_{2}\\right|$\n\n(D) If $\\hat{u}$ lies in the $x z$-plane then $2\\left|u_{1}\\right|=\\left|u_{3}\\right|$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 37,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If $2 x-y+1=0$ is a tangent to the hyperbola $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{16}=1$, then which of the following CANNOT be sides of a right angled triangle?\n\n[A] $a, 4,1$\n\n[B] $a, 4,2$\n\n[C] $2 a, 8,1$\n\n[D] $2 a, 4,1$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 38,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If a chord, which is not a tangent, of the parabola $y^{2}=16 x$ has the equation $2 x+y=p$, and midpoint $(h, k)$, then which of the following is(are) possible value(s) of $p, h$ and $k$ ?\n\n[A] $p=-2, h=2, k=-4$\n\n[B] $p=-1, h=1, k=-3$\n\n[C] $p=2, h=3, k=-4$\n\n[D] $p=5, h=4, k=-3$",
+    "gold": "C"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 40,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow(0,1)$ be a continuous function. Then, which of the following function(s) has(have) the value zero at some point in the interval $(0,1)$ ?\n\n[A] $x^{9}-f(x)$\n\n[B] $x-\\int_{0}^{\\frac{\\pi}{2}-x} f(t) \\cos t d t$\n\n[C] e^{x}-\\int_{0}^{x} f(t) \\sin t d t$\n\n[D] f(x)+\\int_{0}^{\\frac{\\pi}{2}} f(t) \\sin t d t$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 41,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Which of the following is(are) NOT the square of a $3 \\times 3$ matrix with real entries?\n\n[A]$\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]\n\n[B]$\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]$\n\n[C]$\\left[\\begin{array}{ccc}1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]\n\n[D]$\\left[\\begin{array}{ccc}-1 & 0 & 0 \\\\ 0 & -1 & 0 \\\\ 0 & 0 & -1\\end{array}\\right]$",
+    "gold": "BD"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 42,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a, b, x$ and $y$ be real numbers such that $a-b=1$ and $y \\neq 0$. If the complex number $z=x+i y$ satisfies $\\operatorname{Im}\\left(\\frac{a z+b}{z+1}\\right)=\\mathrm{y}$, then which of the following is(are) possible value(s) of $x ?$\n\n[A]$-1+\\sqrt{1-y^{2}}$\n\n[B]$-1-\\sqrt{1-y^{2}}$\n\n[C]$1+\\sqrt{1+y^{2}}$\n\n[D]$1-\\sqrt{1+y^{2}}$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $X$ and $Y$ be two events such that $P(X)=\\frac{1}{3}, P(X \\mid Y)=\\frac{1}{2}$ and $P(Y \\mid X)=\\frac{2}{5}$. Then\n\n[A] $P(Y)=\\frac{4}{15}$\n\n[B] $P\\left(X^{\\prime} \\mid Y\\right)=\\frac{1}{2}$\n\n[C] \\quad P(X \\cap Y)=\\frac{1}{5}$\n\n[D] $P(X \\cup Y)=\\frac{2}{5}$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is a differentiable function such that $f^{\\prime}(x)>2 f(x)$ for all $x \\in \\mathbb{R}$, and $f(0)=1$, then\n\n[A] $f(x)$ is increasing in $(0, \\infty)$\n\n[B] $f(x)$ is decreasing in $(0, \\infty)$\n\n[C] $\\quad f(x)>e^{2 x}$ in $(0, \\infty)$\n\n[D] $f^{\\prime}(x)<e^{2 x}$ in $(0, \\infty)$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f(x)=\\frac{1-x(1+|1-x|)}{|1-x|} \\cos \\left(\\frac{1}{1-x}\\right)$ for $x \\neq 1$. Then\n\n[A] $\\lim _{x \\rightarrow 1^{-}} f(x)=0$\n\n[B] $\\lim _{x \\rightarrow 1^{-}} f(x)$ does not exist\n\n[C] $\\lim _{x \\rightarrow 1^{+}} f(x)=0$\n\n[D] $\\lim _{x \\rightarrow 1^{+}} f(x)$ does not exist",
+    "gold": "AD"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 2",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If $f(x)=\\left|\\begin{array}{ccc}\\cos (2 x) & \\cos (2 x) & \\sin (2 x) \\\\ -\\cos x & \\cos x & -\\sin x \\\\ \\sin x & \\sin x & \\cos x\\end{array}\\right|$, then\n\n[A] $f^{\\prime}(x)=0$ at exactly three points in $(-\\pi, \\pi)$\n\n[B] $f^{\\prime}(x)=0$ at more than three points in $(-\\pi, \\pi)$\n\n[C] $f(x)$ attains its maximum at $x=0$\n\n[D] $f(x)$ attains its minimum at $x=0$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 2",
+    "index": 49,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If the line $x=\\alpha$ divides the area of region $R=\\left\\{(x, y) \\in \\mathbb{R}^{2}: x^{3} \\leq y \\leq x, 0 \\leq x \\leq 1\\right\\}$ into two equal parts, then\n\n[A] $0<\\alpha \\leq \\frac{1}{2}$\n\n[B] $\\frac{1}{2}<\\alpha<1$\n\n[C] $\\quad 2 \\alpha^{4}-4 \\alpha^{2}+1=0$\n\n[D] $\\alpha^{4}+4 \\alpha^{2}-1=0$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 2",
+    "index": 50,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "If $I=\\sum_{k=1}^{98} \\int_{k}^{k+1} \\frac{k+1}{x(x+1)} d x$, then\n\n[A] $I>\\log _{e} 99$\n\n[B] $I<\\log _{e} 99$\n\n[C] $I<\\frac{49}{50}$\n\n[D] $I>\\frac{49}{50}$",
+    "gold": "BD"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 37,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For a non-zero complex number $z$, let $\\arg (z)$ denote the principal argument with $-\\pi<\\arg (z) \\leq \\pi$. Then, which of the following statement(s) is (are) FALSE?\n\n\\end{itemize}\n\n(A) $\\arg (-1-i)=\\frac{\\pi}{4}$, where $i=\\sqrt{-1}$\n\n(B) The function $f: \\mathbb{R} \\rightarrow(-\\pi, \\pi]$, defined by $f(t)=\\arg (-1+i t)$ for all $t \\in \\mathbb{R}$, is continuous at all points of $\\mathbb{R}$, where $i=\\sqrt{-1}$\n\n(C) For any two non-zero complex numbers $z_{1}$ and $z_{2}$,\n\n\\[\n\\arg \\left(\\frac{z_{1}}{z_{2}}\\right)-\\arg \\left(z_{1}\\right)+\\arg \\left(z_{2}\\right)\n\\]\n\nis an integer multiple of $2 \\pi$\n\n(D) For any three given distinct complex numbers $z_{1}, z_{2}$ and $z_{3}$, the locus of the point $z$ satisfying the condition\n\n\\[\n\\arg \\left(\\frac{\\left(z-z_{1}\\right)\\left(z_{2}-z_{3}\\right)}{\\left(z-z_{3}\\right)\\left(z_{2}-z_{1}\\right)}\\right)=\\pi\n\\]\n\nlies on a straight line",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 38,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "In a triangle $P Q R$, let $\\angle P Q R=30^{\\circ}$ and the sides $P Q$ and $Q R$ have lengths $10 \\sqrt{3}$ and 10 , respectively. Then, which of the following statement(s) is (are) TRUE?\n\n(A) $\\angle Q P R=45^{\\circ}$\n\n(B) The area of the triangle $P Q R$ is $25 \\sqrt{3}$ and $\\angle Q R P=120^{\\circ}$\n\n(C) The radius of the incircle of the triangle $P Q R$ is $10 \\sqrt{3}-15$\n\n(D) The area of the circumcircle of the triangle $P Q R$ is $100 \\pi$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 39,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $P_{1}: 2 x+y-z=3$ and $P_{2}: x+2 y+z=2$ be two planes. Then, which of the following statement(s) is (are) TRUE?\n\n(A) The line of intersection of $P_{1}$ and $P_{2}$ has direction ratios $1,2,-1$\n\n(B) The line\n\n\\[\n\\frac{3 x-4}{9}=\\frac{1-3 y}{9}=\\frac{z}{3}\n\\]\n\nis perpendicular to the line of intersection of $P_{1}$ and $P_{2}$\n\n(C) The acute angle between $P_{1}$ and $P_{2}$ is $60^{\\circ}$\n\n(D) If $P_{3}$ is the plane passing through the point $(4,2,-2)$ and perpendicular to the line of intersection of $P_{1}$ and $P_{2}$, then the distance of the point $(2,1,1)$ from the plane $P_{3}$ is $\\frac{2}{\\sqrt{3}}$",
+    "gold": "CD"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 40,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For every twice differentiable function $f: \\mathbb{R} \\rightarrow[-2,2]$ with $(f(0))^{2}+\\left(f^{\\prime}(0)\\right)^{2}=85$, which of the following statement(s) is (are) TRUE?\n\n(A) There exist $r, s \\in \\mathbb{R}$, where $r<s$, such that $f$ is one-one on the open interval $(r, s)$\n\n(B) There exists $x_{0} \\in(-4,0)$ such that $\\left|f^{\\prime}\\left(x_{0}\\right)\\right| \\leq 1$\n\n(C) $\\lim _{x \\rightarrow \\infty} f(x)=1$\n\n(D) There exists $\\alpha \\in(-4,4)$ such that $f(\\alpha)+f^{\\prime \\prime}(\\alpha)=0$ and $f^{\\prime}(\\alpha) \\neq 0$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 41,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be two non-constant differentiable functions. If\n\n\\[\nf^{\\prime}(x)=\\left(e^{(f(x)-g(x))}\\right) g^{\\prime}(x) \\text { for all } x \\in \\mathbb{R}\n\\]\n\nand $f(1)=g(2)=1$, then which of the following statement(s) is (are) TRUE?\n\n(A) $f(2)<1-\\log _{\\mathrm{e}} 2$\n\n(B) $f(2)>1-\\log _{\\mathrm{e}} 2$\n\n(C) $g(1)>1-\\log _{\\mathrm{e}} 2$\n\n(D) $g(1)<1-\\log _{\\mathrm{e}} 2$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 37,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any positive integer $n$, define $f_{n}:(0, \\infty) \\rightarrow \\mathbb{R}$ as\n\n\\[\nf_{n}(x)=\\sum_{j=1}^{n} \\tan ^{-1}\\left(\\frac{1}{1+(x+j)(x+j-1)}\\right) \\text { for all } x \\in(0, \\infty)\n\\]\n\n(Here, the inverse trigonometric function $\\tan ^{-1} x$ assumes values in $\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. ) Then, which of the following statement(s) is (are) TRUE?\n\n(A) $\\sum_{j=1}^{5} \\tan ^{2}\\left(f_{j}(0)\\right)=55$\n\n(B) $\\sum_{j=1}^{10}\\left(1+f_{j}^{\\prime}(0)\\right) \\sec ^{2}\\left(f_{j}(0)\\right)=10$\n\n(C) For any fixed positive integer $n, \\lim _{x \\rightarrow \\infty} \\tan \\left(f_{n}(x)\\right)=\\frac{1}{n}$\n\n(D) For any fixed positive integer $n$, $\\lim _{x \\rightarrow \\infty} \\sec ^{2}\\left(f_{n}(x)\\right)=1$",
+    "gold": "D"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 41,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $s, t, r$ be non-zero complex numbers and $L$ be the set of solutions $z=x+i y$ $(x, y \\in \\mathbb{R}, i=\\sqrt{-1})$ of the equation $s z+t \\bar{z}+r=0$, where $\\bar{z}=x-i y$. Then, which of the following statement(s) is (are) TRUE?\n\n(A) If $L$ has exactly one element, then $|s| \\neq|t|$\n\n(B) If $|s|=|t|$, then $L$ has infinitely many elements\n\n(C) The number of elements in $L \\cap\\{z:|z-1+i|=5\\}$ is at most 2\n\n(D) If $L$ has more than one element, then $L$ has infinitely many elements",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 42,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let\n\n\\[\nM=\\left[\\begin{array}{lll}\n\n0 & 1 & a \\\\\n\n1 & 2 & 3 \\\\\n\n3 & b & 1\n\n\\end{array}\\right] \\quad \\text { and adj } M=\\left[\\begin{array}{rrr}\n\n-1 & 1 & -1 \\\\\n\n8 & -6 & 2 \\\\\n\n-5 & 3 & -1\n\n\\end{array}\\right]\n\\]\n\nwhere $a$ and $b$ are real numbers. Which of the following options is/are correct?\n\n(A) $a+b=3$\n\n(B) $(\\operatorname{adj} M)^{-1}+\\operatorname{adj} M^{-1}=-M$\n\n(C) $\\operatorname{det}\\left(\\operatorname{adj} M^{2}\\right)=81$\n\n(D) If $M\\left[\\begin{array}{l}\\alpha \\\\ \\beta \\\\ \\gamma\\end{array}\\right]=\\left[\\begin{array}{l}1 \\\\ 2 \\\\ 3\\end{array}\\right]$, then $\\alpha-\\beta+\\gamma=3$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "There are three bags $B_{1}, B_{2}$ and $B_{3}$. The bag $B_{1}$ contains 5 red and 5 green balls, $B_{2}$ contains 3 red and 5 green balls, and $B_{3}$ contains 5 red and 3 green balls. Bags $B_{1}, B_{2}$ and $B_{3}$ have probabilities $\\frac{3}{10}, \\frac{3}{10}$ and $\\frac{4}{10}$ respectively of being chosen. A bag is selected at random and a ball is chosen at random from the bag. Then which of the following options is/are correct?\n\n(A) Probability that the chosen ball is green, given that the selected bag is $B_{3}$, equals $\\frac{3}{8}$\n\n(B) Probability that the chosen ball is green equals $\\frac{39}{80}$\n\n(C) Probability that the selected bag is $B_{3}$, given that the chosen ball is green, equals $\\frac{5}{13}$\n\n(D) Probability that the selected bag is $B_{3}$ and the chosen ball is green equals $\\frac{3}{10}$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "In a non-right-angled triangle $\\triangle P Q R$, let $p, q, r$ denote the lengths of the sides opposite to the angles at $P, Q, R$ respectively. The median from $R$ meets the side $P Q$ at $S$, the perpendicular from $P$ meets the side $Q R$ at $E$, and $R S$ and $P E$ intersect at $O$. If $p=\\sqrt{3}, q=1$, and the radius of the circumcircle of the $\\triangle P Q R$ equals 1 , then which of the following options is/are correct?\n\n(A) Length of $R S=\\frac{\\sqrt{7}}{2}$\n\n(B) Area of $\\triangle S O E=\\frac{\\sqrt{3}}{12}$\n\n(C) Length of $O E=\\frac{1}{6}$\n\n(D) Radius of incircle of $\\triangle P Q R=\\frac{\\sqrt{3}}{2}(2-\\sqrt{3})$",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Define the collections $\\left\\{E_{1}, E_{2}, E_{3}, \\ldots\\right\\}$ of ellipses and $\\left\\{R_{1}, R_{2}, R_{3}, \\ldots\\right\\}$ of rectangles as follows:\n\n$E_{1}: \\frac{x^{2}}{9}+\\frac{y^{2}}{4}=1$\n\n$R_{1}$ : rectangle of largest area, with sides parallel to the axes, inscribed in $E_{1}$;\n\n$E_{n}:$ ellipse $\\frac{x^{2}}{a_{n}^{2}}+\\frac{y^{2}}{b_{n}^{2}}=1$ of largest area inscribed in $R_{n-1}, n>1$;\n\n$R_{n}:$ rectangle of largest area, with sides parallel to the axes, inscribed in $E_{n}, n>1$.\n\nThen which of the following options is/are correct?\n\n(A) The eccentricities of $E_{18}$ and $E_{19}$ are NOT equal\n\n(B) $\\quad \\sum_{n=1}^{N}\\left(\\right.$ area of $\\left.R_{n}\\right)<24$, for each positive integer $N$\n\n(C) The length of latus rectum of $E_{9}$ is $\\frac{1}{6}$\n\n(D) The distance of a focus from the centre in $E_{9}$ is $\\frac{\\sqrt{5}}{32}$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\Gamma$ denote a curve $y=y(x)$ which is in the first quadrant and let the point $(1,0)$ lie on it. Let the tangent to $\\Gamma$ at a point $P$ intersect the $y$-axis at $Y_{P}$. If $P Y_{P}$ has length 1 for each point $P$ on $\\Gamma$, then which of the following options is/are correct?\n\n(A) $y=\\log _{e}\\left(\\frac{1+\\sqrt{1-x^{2}}}{x}\\right)-\\sqrt{1-x^{2}}$\n\n(B) $x y^{\\prime}+\\sqrt{1-x^{2}}=0$\n\n(C) $y=-\\log _{e}\\left(\\frac{1+\\sqrt{1-x^{2}}}{x}\\right)+\\sqrt{1-x^{2}}$\n\n(D) $x y^{\\prime}-\\sqrt{1-x^{2}}=0$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $L_{1}$ and $L_{2}$ denote the lines\n\n\\[\n\\vec{r}=\\hat{i}+\\lambda(-\\hat{i}+2 \\hat{j}+2 \\hat{k}), \\lambda \\in \\mathbb{R}\n\\]\n and \n\\[ \\vec{r}=\\mu(2 \\hat{i}-\\hat{j}+2 \\hat{k}), \\mu \\in \\mathbb{R}\n\\]\n\nrespectively. If $L_{3}$ is a line which is perpendicular to both $L_{1}$ and $L_{2}$ and cuts both of them, then which of the following options describe(s) $L_{3}$ ?\n\n(A) $\\vec{r}=\\frac{2}{9}(4 \\hat{i}+\\hat{j}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(B) $\\vec{r}=\\frac{2}{9}(2 \\hat{i}-\\hat{j}+2 \\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(C) $\\vec{r}=\\frac{1}{3}(2 \\hat{i}+\\hat{k})+t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$\n\n(D) $\\vec{r}=t(2 \\hat{i}+2 \\hat{j}-\\hat{k}), t \\in \\mathbb{R}$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 37,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let\n\n\\[\n\\begin{aligned}\n\n& P_{1}=I=\\left[\\begin{array}{lll}\n\n1 & 0 & 0 \\\\\n\n0 & 1 & 0 \\\\\n\n0 & 0 & 1\n\n\\end{array}\\right], \\quad P_{2}=\\left[\\begin{array}{lll}\n\n1 & 0 & 0 \\\\\n\n0 & 0 & 1 \\\\\n\n0 & 1 & 0\n\n\\end{array}\\right], \\quad P_{3}=\\left[\\begin{array}{lll}\n\n0 & 1 & 0 \\\\\n\n1 & 0 & 0 \\\\\n\n0 & 0 & 1\n\n\\end{array}\\right], \\\\\n\n& P_{4}=\\left[\\begin{array}{lll}\n\n0 & 1 & 0 \\\\\n\n0 & 0 & 1 \\\\\n\n1 & 0 & 0\n\n\\end{array}\\right], \\quad P_{5}=\\left[\\begin{array}{lll}\n\n0 & 0 & 1 \\\\\n\n1 & 0 & 0 \\\\\n\n0 & 1 & 0\n\n\\end{array}\\right], \\quad P_{6}=\\left[\\begin{array}{ccc}\n\n0 & 0 & 1 \\\\\n\n0 & 1 & 0 \\\\\n\n1 & 0 & 0\n\n\\end{array}\\right] \\\\\n\n& \\text { and } X=\\sum_{k=1}^{6} P_{k}\\left[\\begin{array}{lll}\n\n2 & 1 & 3 \\\\\n\n1 & 0 & 2 \\\\\n\n3 & 2 & 1\n\n\\end{array}\\right] P_{k}^{T}\n\n\\end{aligned}\n\\]\n\nwhere $P_{k}^{T}$ denotes the transpose of the matrix $P_{k}$. Then which of the following options is/are correct?\n\n(A) If $X\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]=\\alpha\\left[\\begin{array}{l}1 \\\\ 1 \\\\ 1\\end{array}\\right]$, then $\\alpha=30$\n\n(B) $X$ is a symmetric matrix\n\n(C) The sum of diagonal entries of $X$ is 18\n\n(D) $X-30 I$ is an invertible matrix",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 40,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a function. We say that $f$ has\n\nPROPERTY 1 if $\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{\\sqrt{|h|}}$ exists and is finite, and\n\nPROPERTY 2 if $\\lim _{h \\rightarrow 0} \\frac{f(h)-f(0)}{h^{2}}$ exists and is finite.\n\nThen which of the following options is/are correct?\n\n(A) $f(x)=|x|$ has PROPERTY 1\n\n(B) $f(x)=x^{2 / 3}$ has PROPERTY 1\n\n(C) $f(x)=x|x|$ has PROPERTY 2\n\n(D) $f(x)=\\sin x$ has PROPERTY 2",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 41,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let\n\n\\[\nf(x)=\\frac{\\sin \\pi x}{x^{2}}, \\quad x>0\n\\]\n\nLet $x_{1}<x_{2}<x_{3}<\\cdots<x_{n}<\\cdots$ be all the points of local maximum of $f$ and $y_{1}<y_{2}<y_{3}<\\cdots<y_{n}<\\cdots$ be all the points of local minimum of $f$.\n\nThen which of the following options is/are correct?\n\n(A) $x_{1}<y_{1}$\n\n(B) $x_{n+1}-x_{n}>2$ for every $n$\n\n(C) $\\quad x_{n} \\in\\left(2 n, 2 n+\\frac{1}{2}\\right)$ for every $n$\n\n(D) $\\left|x_{n}-y_{n}\\right|>1$ for every $n$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 42,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For $a \\in \\mathbb{R},|a|>1$, let\n\n\\[\n\\lim _{n \\rightarrow \\infty}\\left(\\frac{1+\\sqrt[3]{2}+\\cdots+\\sqrt[3]{n}}{n^{7 / 3}\\left(\\frac{1}{(a n+1)^{2}}+\\frac{1}{(a n+2)^{2}}+\\cdots+\\frac{1}{(a n+n)^{2}}\\right)}\\right)=54\n\\]\n\nThen the possible value(s) of $a$ is/are\n\n(A) -9\n\n(B) -6\n\n(C) 7\n\n(D) 8",
+    "gold": "AD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be given by $f(x)=(x-1)(x-2)(x-5)$. Define\n\n\\[\nF(x)=\\int_{0}^{x} f(t) d t, \\quad x>0 .\n\\]\n\nThen which of the following options is/are correct?\n\n(A) $F$ has a local minimum at $x=1$\n\n(B) $F$ has a local maximum at $x=2$\n\n(C) $F$ has two local maxima and one local minimum in $(0, \\infty)$\n\n(D) $\\quad F(x) \\neq 0$ for all $x \\in(0,5)$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Three lines\n\n\\[\n\\begin{aligned}\n\nL_{1}: & \\vec{r}=\\lambda \\hat{i}, \\lambda \\in \\mathbb{R}, \\\\\n\nL_{2}: & \\vec{r}=\\hat{k}+\\mu \\hat{j}, \\mu \\in \\mathbb{R} \\text { and } \\\\\n\nL_{3}: & \\vec{r}=\\hat{i}+\\hat{j}+v \\hat{k}, \\quad v \\in \\mathbb{R}\n\n\\end{aligned}\n\\]\n\nare given. For which point(s) $Q$ on $L_{2}$ can we find a point $P$ on $L_{1}$ and a point $R$ on $L_{3}$ so that $P, Q$ and $R$ are collinear?\n\n(A) $\\hat{k}-\\frac{1}{2} \\hat{j}$\n\n(B) $\\hat{k}$\n\n(C) $\\hat{k}+\\frac{1}{2} \\hat{j}$\n\n(D) $\\hat{k}+\\hat{j}$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by $f(x)=x^{3}-x^{2}+(x-1) \\sin x$ and let $g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be an arbitrary function. Let $f g: \\mathbb{R} \\rightarrow \\mathbb{R}$ be the product function defined by $(f g)(x)=f(x) g(x)$. Then which of the following statements is/are TRUE?\n\n(A) If $g$ is continuous at $x=1$, then $f g$ is differentiable at $x=1$\n\n(B) If $f g$ is differentiable at $x=1$, then $g$ is continuous at $x=1$\n\n(C) If $g$ is differentiable at $x=1$, then $f g$ is differentiable at $x=1$\n\n(D) If $f g$ is differentiable at $x=1$, then $g$ is differentiable at $x=1$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $M$ be a $3 \\times 3$ invertible matrix with real entries and let $I$ denote the $3 \\times 3$ identity matrix. If $M^{-1}=\\operatorname{adj}(\\operatorname{adj} M)$, then which of the following statements is/are ALWAYS TRUE?\n\n(A) $M=I$\n\n(B) $\\operatorname{det} M=1$\n\n(C) $M^{2}=I$\n\n(D) $(\\operatorname{adj} M)^{2}=I$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $S$ be the set of all complex numbers $z$ satisfying $\\left|z^{2}+z+1\\right|=1$. Then which of the following statements is/are TRUE?\n\n(A) $\\left|z+\\frac{1}{2}\\right| \\leq \\frac{1}{2}$ for all $z \\in S$\n\n(B) $|z| \\leq 2$ for all $z \\in S$\n\n(C) $\\left|z+\\frac{1}{2}\\right| \\geq \\frac{1}{2}$ for all $z \\in S$\n\n(D) The set $S$ has exactly four elements",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 46,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $x, y$ and $z$ be positive real numbers. Suppose $x, y$ and $z$ are the lengths of the sides of a triangle opposite to its angles $X, Y$ and $Z$, respectively. If\n\n\\[\n\\tan \\frac{X}{2}+\\tan \\frac{Z}{2}=\\frac{2 y}{x+y+z}\n\\]\n\nthen which of the following statements is/are TRUE?\n\n(A) $2 Y=X+Z$\n\n(B) $Y=X+Z$\n\n(C) $\\tan \\frac{x}{2}=\\frac{x}{y+z}$\n\n(D) $x^{2}+z^{2}-y^{2}=x z$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $L_{1}$ and $L_{2}$ be the following straight lines.\n\n\\[\nL_{1}: \\frac{x-1}{1}=\\frac{y}{-1}=\\frac{z-1}{3} \\text { and } L_{2}: \\frac{x-1}{-3}=\\frac{y}{-1}=\\frac{z-1}{1}\n\\]\n\nSuppose the straight line\n\n\\[\nL: \\frac{x-\\alpha}{l}=\\frac{y-1}{m}=\\frac{z-\\gamma}{-2}\n\\]\n\nlies in the plane containing $L_{1}$ and $L_{2}$, and passes through the point of intersection of $L_{1}$ and $L_{2}$. If the line $L$ bisects the acute angle between the lines $L_{1}$ and $L_{2}$, then which of the following statements is/are TRUE?\n\n(A) $\\alpha-\\gamma=3$\n\n(B) $l+m=2$\n\n(C) $\\alpha-\\gamma=1$\n\n(D) $l+m=0$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Which of the following inequalities is/are TRUE?\n\n(A) $\\int_{0}^{1} x \\cos x d x \\geq \\frac{3}{8}$\n\n(B) $\\int_{0}^{1} x \\sin x d x \\geq \\frac{3}{10}$\n\n(C) $\\int_{0}^{1} x^{2} \\cos x d x \\geq \\frac{1}{2}$\n\n(D) $\\int_{0}^{1} x^{2} \\sin x d x \\geq \\frac{2}{9}$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 43,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $b$ be a nonzero real number. Suppose $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ is a differentiable function such that $f(0)=1$. If the derivative $f^{\\prime}$ of $f$ satisfies the equation\n\n\\[\nf^{\\prime}(x)=\\frac{f(x)}{b^{2}+x^{2}}\n\\]\n\nfor all $x \\in \\mathbb{R}$, then which of the following statements is/are TRUE?\n\n(A) If $b>0$, then $f$ is an increasing function\n\n(B) If $b<0$, then $f$ is a decreasing function\n\n(C) $f(x) f(-x)=1$ for all $x \\in \\mathbb{R}$\n\n(D) $f(x)-f(-x)=0$ for all $x \\in \\mathbb{R}$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 44,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a$ and $b$ be positive real numbers such that $a>1$ and $b<a$. Let $P$ be a point in the first quadrant that lies on the hyperbola $\\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1$. Suppose the tangent to the hyperbola at $P$ passes through the point $(1,0)$, and suppose the normal to the hyperbola at $P$ cuts off equal intercepts on the coordinate axes. Let $\\Delta$ denote the area of the triangle formed by the tangent at $P$, the normal at $P$ and the $x$-axis. If $e$ denotes the eccentricity of the hyperbola, then which of the following statements is/are TRUE?\n\n(A) $1<e<\\sqrt{2}$\n\n(B) $\\sqrt{2}<e<2$\n\n(C) $\\Delta=a^{4}$\n\n(D) $\\Delta=b^{4}$",
+    "gold": "AD"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 45,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\boldsymbol{f}: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $\\boldsymbol{g}: \\mathbb{R} \\rightarrow \\mathbb{R}$ be functions satisfying\n\n\\[\nf(x+y)=f(x)+f(y)+f(x) f(y) \\text { and } f(x)=x g(x)\n\\]\n\nfor all $x, y \\in \\mathbb{R}$. If $\\lim _{x \\rightarrow 0} g(x)=1$, then which of the following statements is/are TRUE?\n\n(A) $f$ is differentiable at every $x \\in \\mathbb{R}$\n\n(B) If $g(0)=1$, then $g$ is differentiable at every $x \\in \\mathbb{R}$\n\n(C) The derivative $f^{\\prime}(1)$ is equal to 1\n\n(D) The derivative $f^{\\prime}(0)$ is equal to 1",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\alpha, \\beta, \\gamma, \\delta$ be real numbers such that $\\alpha^{2}+\\beta^{2}+\\gamma^{2} \\neq 0$ and $\\alpha+\\gamma=1$. Suppose the point $(3,2,-1)$ is the mirror image of the point $(1,0,-1)$ with respect to the plane $\\alpha x+\\beta y+\\gamma z=\\delta$. Then which of the following statements is/are TRUE?\n\n(A) $\\alpha+\\beta=2$\n\n(B) $\\delta-\\gamma=3$\n\n(C) $\\delta+\\beta=4$\n\n(D) $\\alpha+\\beta+\\gamma=\\delta$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a$ and $b$ be positive real numbers. Suppose $\\overrightarrow{P Q}=a \\hat{i}+b \\hat{j}$ and $\\overrightarrow{P S}=a \\hat{i}-b \\hat{j}$ are adjacent sides of a parallelogram $P Q R S$. Let $\\vec{u}$ and $\\vec{v}$ be the projection vectors of $\\vec{w}=\\hat{i}+\\hat{j}$ along $\\overrightarrow{P Q}$ and $\\overrightarrow{P S}$, respectively. If $|\\vec{u}|+|\\vec{v}|=|\\vec{w}|$ and if the area of the parallelogram $P Q R S$ is 8 , then which of the following statements is/are TRUE?\n\n(A) $a+b=4$\n\n(B) $a-b=2$\n\n(C) The length of the diagonal $P R$ of the parallelogram $P Q R S$ is 4\n\n(D) $\\vec{w}$ is an angle bisector of the vectors $\\overrightarrow{P Q}$ and $\\overrightarrow{P S}$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For nonnegative integers $s$ and $r$, let\n\n\\[\n\\left(\\begin{array}{ll}\n\ns \\\\\n\nr\n\n\\end{array}\\right)= \\begin{cases}\\frac{s !}{r !(s-r) !} & \\text { if } r \\leq s \\\\\n\n0 & \\text { if } r>s .\\end{cases}\n\\]\n\nFor positive integers $m$ and $n$, let\n\n\\[\ng(m, n)=\\sum_{p=0}^{m+n} \\frac{f(m, n, p)}{\\left(\\begin{array}{c}\n\nn+p \\\\\n\np\n\n\\end{array}\\right)}\n\\]\n\nwhere for any nonnegative integer $p$,\n\n\\[\nf(m, n, p)=\\sum_{i=0}^{p}\\left(\\begin{array}{c}\n\nm \\\\\n\ni\n\n\\end{array}\\right)\\left(\\begin{array}{c}\n\nn+i \\\\\n\np\n\n\\end{array}\\right)\\left(\\begin{array}{c}\n\np+n \\\\\n\np-i\n\n\\end{array}\\right) .\n\\]\n\nThen which of the following statements is/are TRUE?\n\n(A) $g(m, n)=g(n, m)$ for all positive integers $m, n$\n\n(B) $g(m, n+1)=g(m+1, n)$ for all positive integers $m, n$\n\n(C) $g(2 m, 2 n)=2 g(m, n)$ for all positive integers $m, n$\n\n(D) $g(2 m, 2 n)=(g(m, n))^{2}$ for all positive integers $m, n$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any $3 \\times 3$ matrix $M$, let $|M|$ denote the determinant of $M$. Let\n\n\\[\nE=\\left[\\begin{array}{ccc}\n\n1 & 2 & 3 \\\\\n\n2 & 3 & 4 \\\\\n\n8 & 13 & 18\n\n\\end{array}\\right], P=\\left[\\begin{array}{ccc}\n\n1 & 0 & 0 \\\\\n\n0 & 0 & 1 \\\\\n\n0 & 1 & 0\n\n\\end{array}\\right] \\text { and } F=\\left[\\begin{array}{ccc}\n\n1 & 3 & 2 \\\\\n\n8 & 18 & 13 \\\\\n\n2 & 4 & 3\n\n\\end{array}\\right]\n\\]\n\nIf $Q$ is a nonsingular matrix of order $3 \\times 3$, then which of the following statements is (are) TRUE?\n\n(A) $F=P E P$ and $P^{2}=\\left[\\begin{array}{lll}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{array}\\right]$\n\n(B) $\\left|E Q+P F Q^{-1}\\right|=|E Q|+\\left|P F Q^{-1}\\right|$\n\n(C) $\\left|(E F)^{3}\\right|>|E F|^{2}$\n\n(D) Sum of the diagonal entries of $P^{-1} E P+F$ is equal to the sum of diagonal entries of $E+P^{-1} F P$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be defined by\n\n\\[\nf(x)=\\frac{x^{2}-3 x-6}{x^{2}+2 x+4}\n\\]\n\nThen which of the following statements is (are) TRUE ?\n\n(A) $f$ is decreasing in the interval $(-2,-1)$\n\n(B) $f$ is increasing in the interval $(1,2)$\n\n(C) $f$ is onto\n\n(D) Range of $f$ is $\\left[-\\frac{3}{2}, 2\\right]$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 49,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $E, F$ and $G$ be three events having probabilities\n\n\\[\nP(E)=\\frac{1}{8}, P(F)=\\frac{1}{6} \\text { and } P(G)=\\frac{1}{4} \\text {, and let } P(E \\cap F \\cap G)=\\frac{1}{10} \\text {. }\n\\]\n\nFor any event $H$, if $H^{c}$ denotes its complement, then which of the following statements is (are) TRUE ?\n\n(A) $P\\left(E \\cap F \\cap G^{c}\\right) \\leq \\frac{1}{40}$\n\n(B) $P\\left(E^{c} \\cap F \\cap G\\right) \\leq \\frac{1}{15}$\n\n(C) $P(E \\cup F \\cup G) \\leq \\frac{13}{24}$\n\n(D) $P\\left(E^{c} \\cap F^{c} \\cap G^{c}\\right) \\leq \\frac{5}{12}$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 50,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any $3 \\times 3$ matrix $M$, let $|M|$ denote the determinant of $M$. Let $I$ be the $3 \\times 3$ identity matrix. Let $E$ and $F$ be two $3 \\times 3$ matrices such that $(I-E F)$ is invertible. If $G=(I-E F)^{-1}$, then which of the following statements is (are) TRUE ?\n\n(A) $|F E|=|I-F E||F G E|$\n\n(B) $(I-F E)(I+F G E)=I$\n\n(C) $E F G=G E F$\n\n(D) $(I-F E)(I-F G E)=I$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 51,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any positive integer $n$, let $S_{n}:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n\n\\[\nS_{n}(x)=\\sum_{k=1}^{n} \\cot ^{-1}\\left(\\frac{1+k(k+1) x^{2}}{x}\\right)\n\\]\n\nwhere for any $x \\in \\mathbb{R}, \\cot ^{-1}(x) \\in(0, \\pi)$ and $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then which of the following statements is (are) TRUE ?\n\n(A) $S_{10}(x)=\\frac{\\pi}{2}-\\tan ^{-1}\\left(\\frac{1+11 x^{2}}{10 x}\\right)$, for all $x>0$\n\n(B) $\\lim _{n \\rightarrow \\infty} \\cot \\left(S_{n}(x)\\right)=x$, for all $x>0$\n\n(C) The equation $S_{3}(x)=\\frac{\\pi}{4}$ has a root in $(0, \\infty)$\n\n(D) $\\tan \\left(S_{n}(x)\\right) \\leq \\frac{1}{2}$, for all $n \\geq 1$ and $x>0$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 52,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any complex number $w=c+i d$, let $\\arg (\\mathrm{w}) \\in(-\\pi, \\pi]$, where $i=\\sqrt{-1}$. Let $\\alpha$ and $\\beta$ be real numbers such that for all complex numbers $z=x+i y$ satisfying $\\arg \\left(\\frac{z+\\alpha}{z+\\beta}\\right)=\\frac{\\pi}{4}$, the ordered pair $(x, y)$ lies on the circle\n\n\\[\nx^{2}+y^{2}+5 x-3 y+4=0\n\\]\n\nThen which of the following statements is (are) TRUE ?\n\n(A) $\\alpha=-1$\n\n(B) $\\alpha \\beta=4$\n\n(C) $\\alpha \\beta=-4$\n\n(D) $\\beta=4$",
+    "gold": "BD"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 37,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let\n\n\\[\n\\begin{gathered}\n\nS_{1}=\\{(i, j, k): i, j, k \\in\\{1,2, \\ldots, 10\\}\\}, \\\\\n\nS_{2}=\\{(i, j): 1 \\leq i<j+2 \\leq 10, i, j \\in\\{1,2, \\ldots, 10\\}\\} \\\\\n\nS_{3}=\\{(i, j, k, l): 1 \\leq i<j<k<l, i, j, k, l \\in\\{1,2, \\ldots, 10\\}\\}\n\n\\end{gathered}\n\\]\n\nand\n\n\\[\nS_{4}=\\{(i, j, k, l): i, j, k \\text { and } l \\text { are distinct elements in }\\{1,2, \\ldots, 10\\}\\}\n\\]\n\nIf the total number of elements in the set $S_{r}$ is $n_{r}, r=1,2,3,4$, then which of the following statements is (are) TRUE ?\n\n(A) $n_{1}=1000$\n\n(B) $n_{2}=44$\n\n(C) $n_{3}=220$\n\n(D) $\\frac{n_{4}}{12}=420$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 38,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Consider a triangle $P Q R$ having sides of lengths $p, q$ and $r$ opposite to the angles $P, Q$ and $R$, respectively. Then which of the following statements is (are) TRUE ?\n\n(A) $\\cos P \\geq 1-\\frac{p^{2}}{2 q r}$\n\n(B) $\\cos R \\geq\\left(\\frac{q-r}{p+q}\\right) \\cos P+\\left(\\frac{p-r}{p+q}\\right) \\cos Q$\n\n(C) $\\frac{q+r}{p}<2 \\frac{\\sqrt{\\sin Q \\sin R}}{\\sin P}$\n\n(D) If $p<q$ and $p<r$, then $\\cos Q>\\frac{p}{r}$ and $\\cos R>\\frac{p}{q}$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 39,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f:\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ be a continuous function such that\n\n\\[\nf(0)=1 \\text { and } \\int_{0}^{\\frac{\\pi}{3}} f(t) d t=0\n\\]\n\nThen which of the following statements is (are) TRUE ?\n\n(A) The equation $f(x)-3 \\cos 3 x=0$ has at least one solution in $\\left(0, \\frac{\\pi}{3}\\right)$\n\n(B) The equation $f(x)-3 \\sin 3 x=-\\frac{6}{\\pi}$ has at least one solution in $\\left(0, \\frac{\\pi}{3}\\right)$\n\n(C) $\\lim _{x \\rightarrow 0} \\frac{x \\int_{0}^{x} f(t) d t}{1-e^{x^{2}}}=-1$\n\n(D) $\\lim _{x \\rightarrow 0} \\frac{\\sin x \\int_{0}^{x} f(t) d t}{x^{2}}=-1$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 40,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For any real numbers $\\alpha$ and $\\beta$, let $y_{\\alpha, \\beta}(x), x \\in \\mathbb{R}$, be the solution of the differential equation\n\n\\[\n\\frac{d y}{d x}+\\alpha y=x e^{\\beta x}, \\quad y(1)=1\n\\]\n\nLet $S=\\left\\{y_{\\alpha, \\beta}(x): \\alpha, \\beta \\in \\mathbb{R}\\right\\}$. Then which of the following functions belong(s) to the set $S$ ?\n\n(A) $f(x)=\\frac{x^{2}}{2} e^{-x}+\\left(e-\\frac{1}{2}\\right) e^{-x}$\n\n(B) $f(x)=-\\frac{x^{2}}{2} e^{-x}+\\left(e+\\frac{1}{2}\\right) e^{-x}$\n\n(C) $f(x)=\\frac{e^{x}}{2}\\left(x-\\frac{1}{2}\\right)+\\left(e-\\frac{e^{2}}{4}\\right) e^{-x}$\n\n(D) $f(x)=\\frac{e^{x}}{2}\\left(\\frac{1}{2}-x\\right)+\\left(e+\\frac{e^{2}}{4}\\right) e^{-x}$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 42,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $E$ denote the parabola $y^{2}=8 x$. Let $P=(-2,4)$, and let $Q$ and $Q^{\\prime}$ be two distinct points on $E$ such that the lines $P Q$ and $P Q^{\\prime}$ are tangents to $E$. Let $F$ be the focus of $E$. Then which of the following statements is (are) TRUE?\n\n(A) The triangle $P F Q$ is a right-angled triangle\n\n(B) The triangle $Q P Q^{\\prime}$ is a right-angled triangle\n\n(C) The distance between $P$ and $F$ is $5 \\sqrt{2}$\n\n(D) $F$ lies on the line joining $Q$ and $Q^{\\prime}$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 9,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Consider the equation\n\n\\[\n\\int_{1}^{e} \\frac{\\left(\\log _{\\mathrm{e}} x\\right)^{1 / 2}}{x\\left(a-\\left(\\log _{\\mathrm{e}} x\\right)^{3 / 2}\\right)^{2}} d x=1, \\quad a \\in(-\\infty, 0) \\cup(1, \\infty) .\n\\]\n\nWhich of the following statements is/are TRUE?\n\n(A) No $a$ satisfies the above equation\n\n(B) An integer $a$ satisfies the above equation\n\n(C) An irrational number $a$ satisfies the above equation\n\n(D) More than one $a$ satisfy the above equation",
+    "gold": "CD"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 10,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $a_{1}, a_{2}, a_{3}, \\ldots$ be an arithmetic progression with $a_{1}=7$ and common difference 8 . Let $T_{1}, T_{2}, T_{3}, \\ldots$ be such that $T_{1}=3$ and $T_{n+1}-T_{n}=a_{n}$ for $n \\geq 1$. Then, which of the following is/are TRUE ?\n\n(A) $T_{20}=1604$\n\n(B) $\\sum_{k=1}^{20} T_{k}=10510$\n\n(C) $T_{30}=3454$\n\n(D) $\\sum_{k=1}^{30} T_{k}=35610$",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 11,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $P_{1}$ and $P_{2}$ be two planes given by\n\n\\[\n\\begin{aligned}\n\n& P_{1}: 10 x+15 y+12 z-60=0, \\\\\n\n& P_{2}: \\quad-2 x+5 y+4 z-20=0 .\n\n\\end{aligned}\n\\]\n\nWhich of the following straight lines can be an edge of some tetrahedron whose two faces lie on $P_{1}$ and $P_{2}$ ?\n\n(A) $\\frac{x-1}{0}=\\frac{y-1}{0}=\\frac{z-1}{5}$\n\n(B) $\\frac{x-6}{-5}=\\frac{y}{2}=\\frac{z}{3}$\n\n(C) $\\frac{x}{-2}=\\frac{y-4}{5}=\\frac{z}{4}$\n\n(D) $\\frac{x}{1}=\\frac{y-4}{-2}=\\frac{z}{3}$",
+    "gold": "ABD"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 12,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $S$ be the reflection of a point $Q$ with respect to the plane given by\n\n\\[\n\\vec{r}=-(t+p) \\hat{i}+t \\hat{j}+(1+p) \\hat{k}\n\\]\n\nwhere $t, p$ are real parameters and $\\hat{i}, \\hat{j}, \\hat{k}$ are the unit vectors along the three positive coordinate axes. If the position vectors of $Q$ and $S$ are $10 \\hat{i}+15 \\hat{j}+20 \\hat{k}$ and $\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}$ respectively, then which of the following is/are TRUE ?\n\n(A) $3(\\alpha+\\beta)=-101$\n\n(B) $3(\\beta+\\gamma)=-71$\n\n(C) $3(\\gamma+\\alpha)=-86$\n\n(D) $3(\\alpha+\\beta+\\gamma)=-121$",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 14,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $|M|$ denote the determinant of a square matrix $M$. Let $g:\\left[0, \\frac{\\pi}{2}\\right] \\rightarrow \\mathbb{R}$ be the function defined by\n\nwhere\n\n\\[\ng(\\theta)=\\sqrt{f(\\theta)-1}+\\sqrt{f\\left(\\frac{\\pi}{2}-\\theta\\right)-1}\n\\]\n\n$f(\\theta)=\\frac{1}{2}\\left|\\begin{array}{ccc}1 & \\sin \\theta & 1 \\\\ -\\sin \\theta & 1 & \\sin \\theta \\\\ -1 & -\\sin \\theta & 1\\end{array}\\right|+\\left|\\begin{array}{ccc}\\sin \\pi & \\cos \\left(\\theta+\\frac{\\pi}{4}\\right) & \\tan \\left(\\theta-\\frac{\\pi}{4}\\right) \\\\ \\sin \\left(\\theta-\\frac{\\pi}{4}\\right) & -\\cos \\frac{\\pi}{2} & \\log _{e}\\left(\\frac{4}{\\pi}\\right) \\\\ \\cot \\left(\\theta+\\frac{\\pi}{4}\\right) & \\log _{e}\\left(\\frac{\\pi}{4}\\right) & \\tan \\pi\\end{array}\\right|$\n\nLet $p(x)$ be a quadratic polynomial whose roots are the maximum and minimum values of the function $g(\\theta)$, and $p(2)=2-\\sqrt{2}$. Then, which of the following is/are TRUE?\n\n(A) $p\\left(\\frac{3+\\sqrt{2}}{4}\\right)<0$\n\n(B) $p\\left(\\frac{1+3 \\sqrt{2}}{4}\\right)>0$\n\n(C) $p\\left(\\frac{5 \\sqrt{2}-1}{4}\\right)>0$\n\n(D) $p\\left(\\frac{5-\\sqrt{2}}{4}\\right)<0$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 9,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $P Q R S$ be a quadrilateral in a plane, where $Q R=1, \\angle P Q R=\\angle Q R S=70^{\\circ}, \\angle P Q S=15^{\\circ}$ and $\\angle P R S=40^{\\circ}$. If $\\angle R P S=\\theta^{\\circ}, P Q=\\alpha$ and $P S=\\beta$, then the interval(s) that contain(s) the value of $4 \\alpha \\beta \\sin \\theta^{\\circ}$ is/are\n\n(A) $(0, \\sqrt{2})$\n\n(B) $(1,2)$\n\n(C) $(\\sqrt{2}, 3)$\n\n(D) $(2 \\sqrt{2}, 3 \\sqrt{2})$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 10,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let\n\n\\[\n\\alpha=\\sum_{k=1}^{\\infty} \\sin ^{2 k}\\left(\\frac{\\pi}{6}\\right)\n\\]\n\nLet $g:[0,1] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\\[\ng(x)=2^{\\alpha x}+2^{\\alpha(1-x)}\n\\]\n\nThen, which of the following statements is/are TRUE ?\n\n(A) The minimum value of $g(x)$ is $2^{\\frac{7}{6}}$\n\n(B) The maximum value of $g(x)$ is $1+2^{\\frac{1}{3}}$\n\n(C) The function $g(x)$ attains its maximum at more than one point\n\n(D) The function $g(x)$ attains its minimum at more than one point",
+    "gold": "ABC"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 11,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\bar{z}$ denote the complex conjugate of a complex number $z$. If $z$ is a non-zero complex number for which both real and imaginary parts of\n\n\\[\n(\\bar{z})^{2}+\\frac{1}{z^{2}}\n\\]\n\nare integers, then which of the following is/are possible value(s) of $|z|$ ?\n\n(A) $\\left(\\frac{43+3 \\sqrt{205}}{2}\\right)^{\\frac{1}{4}}$\n\n(B) $\\left(\\frac{7+\\sqrt{33}}{4}\\right)^{\\frac{1}{4}}$\n\n(C) $\\left(\\frac{9+\\sqrt{65}}{4}\\right)^{\\frac{1}{4}}$\n\n(D) $\\left(\\frac{7+\\sqrt{13}}{6}\\right)^{\\frac{1}{4}}$",
+    "gold": "A"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 12,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $G$ be a circle of radius $R>0$. Let $G_{1}, G_{2}, \\ldots, G_{n}$ be $n$ circles of equal radius $r>0$. Suppose each of the $n$ circles $G_{1}, G_{2}, \\ldots, G_{n}$ touches the circle $G$ externally. Also, for $i=1,2, \\ldots, n-1$, the circle $G_{i}$ touches $G_{i+1}$ externally, and $G_{n}$ touches $G_{1}$ externally. Then, which of the following statements is/are TRUE?\n\n(A) If $n=4$, then $(\\sqrt{2}-1) r<R$\n\n(B) If $n=5$, then $r<R$\n\n(C) If $n=8$, then $(\\sqrt{2}-1) r<R$\n\n(D) If $n=12$, then $\\sqrt{2}(\\sqrt{3}+1) r>R$",
+    "gold": "CD"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 13,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $\\hat{i}, \\hat{j}$ and $\\hat{k}$ be the unit vectors along the three positive coordinate axes. Let\n\n\\[\n\\vec{a}=3 \\hat{i}+\\hat{j}-\\hat{k},\n\\]\n\\[\\vec{b}=\\hat{i}+b_{2} \\hat{j}+b_{3} \\hat{k}, \\quad b_{2}, b_{3} \\in \\mathbb{R},\n\\]\n\\[\\vec{c}=c_{1} \\hat{i}+c_{2} \\hat{j}+c_{3} \\hat{k}, \\quad c_{1}, c_{2}, c_{3} \\in \\mathbb{R}\n\\]\n\nbe three vectors such that $b_{2} b_{3}>0, \\vec{a} \\cdot \\vec{b}=0$ and\n\n\\[\n\\left(\\begin{array}{ccc}\n\n0 & -c_{3} & c_{2} \\\\\n\nc_{3} & 0 & -c_{1} \\\\\n\n-c_{2} & c_{1} & 0\n\n\\end{array}\\right)\\left(\\begin{array}{l}\n\n1 \\\\\n\nb_{2} \\\\\n\nb_{3}\n\n\\end{array}\\right)=\\left(\\begin{array}{r}\n\n3-c_{1} \\\\\n\n1-c_{2} \\\\\n\n-1-c_{3}\n\n\\end{array}\\right) .\n\\]\n\nThen, which of the following is/are TRUE ?\n\n(A) $\\vec{a} \\cdot \\vec{c}=0$\n\n(B) $\\vec{b} \\cdot \\vec{c}=0$\n\n(C) $|\\vec{b}|>\\sqrt{10}$\n\n(D) $|\\vec{c}| \\leq \\sqrt{11}$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 14,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "For $x \\in \\mathbb{R}$, let the function $y(x)$ be the solution of the differential equation\n\n\\[\n\\frac{d y}{d x}+12 y=\\cos \\left(\\frac{\\pi}{12} x\\right), \\quad y(0)=0\n\\]\n\nThen, which of the following statements is/are TRUE?\n\n(A) $y(x)$ is an increasing function\n\n(B) $y(x)$ is a decreasing function\n\n(C) There exists a real number $\\beta$ such that the line $y=\\beta$ intersects the curve $y=y(x)$ at infinitely many points\n\n(D) $y(x)$ is a periodic function",
+    "gold": "C"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 1,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $S=(0,1) \\cup(1,2) \\cup(3,4)$ and $T=\\{0,1,2,3\\}$. Then which of the following statements is(are) true?   \n\n\n\n(A) There are infinitely many functions from $S$ to $T$\n\n\n\n(B) There are infinitely many strictly increasing functions from $S$ to $T$\n\n\n\n(C) The number of continuous functions from $S$ to $T$ is at most 120\n\n\n\n(D) Every continuous function from $S$ to $T$ is differentiable",
+    "gold": "ACD"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 2,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $T_{1}$ and $T_{2}$ be two distinct common tangents to the ellipse $E: \\frac{x^{2}}{6}+\\frac{y^{2}}{3}=1$ and the parabola $P: y^{2}=12 x$. Suppose that the tangent $T_{1}$ touches $P$ and $E$ at the points $A_{1}$ and $A_{2}$, respectively and the tangent $T_{2}$ touches $P$ and $E$ at the points $A_{4}$ and $A_{3}$, respectively. Then which of the following statements is(are) true?\n\n\n\n(A) The area of the quadrilateral $A_{1} A_{2} A_{3} A_{4}$ is 35 square units\n\n\n\n(B) The area of the quadrilateral $A_{1} A_{2} A_{3} A_{4}$ is 36 square units\n\n\n\n(C) The tangents $T_{1}$ and $T_{2}$ meet the $x$-axis at the point $(-3,0)$\n\n\n\n(D) The tangents $T_{1}$ and $T_{2}$ meet the $x$-axis at the point $(-6,0)$",
+    "gold": "AC"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 3,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f:[0,1] \\rightarrow[0,1]$ be the function defined by $f(x)=\\frac{x^{3}}{3}-x^{2}+\\frac{5}{9} x+\\frac{17}{36}$. Consider the square region $S=[0,1] \\times[0,1]$. Let $G=\\{(x, y) \\in S: y>f(x)\\}$ be called the green region and $R=\\{(x, y) \\in S: y<f(x)\\}$ be called the red region. Let $L_{h}=\\{(x, h) \\in S: x \\in[0,1]\\}$ be the horizontal line drawn at a height $h \\in[0,1]$. Then which of the following statements is(are) true?\n\n\n\n(A) There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_{h}$ equals the area of the green region below the line $L_{h}$\n\n\n\n(B) There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_{h}$ equals the area of the red region below the line $L_{h}$\n\n\n\n(C) There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the green region above the line $L_{h}$ equals the area of the red region below the line $L_{h}$\n\n\n\n(D) There exists an $h \\in\\left[\\frac{1}{4}, \\frac{2}{3}\\right]$ such that the area of the red region above the line $L_{h}$ equals the area of the green region below the line $L_{h}$",
+    "gold": "BCD"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 5,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $M=\\left(a_{i j}\\right), i, j \\in\\{1,2,3\\}$, be the $3 \\times 3$ matrix such that $a_{i j}=1$ if $j+1$ is divisible by $i$, otherwise $a_{i j}=0$. Then which of the following statements is(are) true?\n\n\n\n(A) $M$ is invertible\n\n\n\n(B) There exists a nonzero column matrix $\\left(\\begin{array}{l}a_{1} \\\\ a_{2} \\\\ a_{3}\\end{array}\\right)$ such that $M\\left(\\begin{array}{l}a_{1} \\\\ a_{2} \\\\ a_{3}\\end{array}\\right)=\\left(\\begin{array}{c}-a_{1} \\\\ -a_{2} \\\\ -a_{3}\\end{array}\\right)$\n\n\n\n(C) The set $\\left\\{X \\in \\mathbb{R}^{3}: M X=\\mathbf{0}\\right\\} \\neq\\{\\boldsymbol{0}\\}$, where $\\mathbf{0}=\\left(\\begin{array}{l}0 \\\\ 0 \\\\ 0\\end{array}\\right)$\n\n\n\n(D) The matrix $(M-2 I)$ is invertible, where $I$ is the $3 \\times 3$ identity matrix",
+    "gold": "BC"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 6,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $f:(0,1) \\rightarrow \\mathbb{R}$ be the function defined as $f(x)=[4 x]\\left(x-\\frac{1}{4}\\right)^{2}\\left(x-\\frac{1}{2}\\right)$, where $[x]$ denotes the greatest integer less than or equal to $x$. Then which of the following statements is(are) true?\n\n\n\n(A) The function $f$ is discontinuous exactly at one point in $(0,1)$\n\n\n\n(B) There is exactly one point in $(0,1)$ at which the function $f$ is continuous but NOT differentiable\n\n\n\n(C) The function $f$ is NOT differentiable at more than three points in $(0,1)$\n\n\n\n(D) The minimum value of the function $f$ is $-\\frac{1}{512}$",
+    "gold": "AB"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 7,
+    "subject": "math",
+    "type": "MCQ(multiple)",
+    "question": "Let $S$ be the set of all twice differentiable functions $f$ from $\\mathbb{R}$ to $\\mathbb{R}$ such that $\\frac{d^{2} f}{d x^{2}}(x)>0$ for all $x \\in(-1,1)$. For $f \\in S$, let $X_{f}$ be the number of points $x \\in(-1,1)$ for which $f(x)=x$. Then which of the following statements is(are) true?\n\n\n\n(A) There exists a function $f \\in S$ such that $X_{f}=0$\n\n\n\n(B) For every function $f \\in S$, we have $X_{f} \\leq 2$\n\n\n\n(C) There exists a function $f \\in S$ such that $X_{f}=2$\n\n\n\n(D) There does NOT exist any function $f$ in $S$ such that $X_{f}=1$",
+    "gold": "ABC"
+  }
+]

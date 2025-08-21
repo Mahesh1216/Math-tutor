@@ -1,0 +1,203 @@
+
+[
+    {
+      "description": "JEE Adv 2016 Paper 1",
+      "index": 37,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "Let $-\\frac{\\pi}{6}<\\theta<-\\frac{\\pi}{12}$. Suppose $\\alpha_{1}$ and $\\beta_{1}$ are the roots of the equation $x^{2}-2 x \\sec \\theta+1=0$ and $\\alpha_{2}$ and $\\beta_{2}$ are the roots of the equation $x^{2}+2 x \\tan \\theta-1=0$. If $\\alpha_{1}>\\beta_{1}$ and $\\alpha_{2}>\\beta_{2}$, then $\\alpha_{1}+\\beta_{2}$ equals (A) $2(\\sec \\theta-\\tan \\theta)$ (B) $2 \\sec \\theta$ (C) $-2 \\tan \\theta$ (D) 0",
+      "gold": "C",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: Let $-\\frac{\\pi}{6}<\\theta<-\\frac{\\pi}{12}$. Suppose $\\alpha_{1}$ and $\\beta_{1}$ are the roots of the equation $x^{2}-2 x \\sec \\theta+1=0$ and $\\alpha_{2}$ and $\\beta_{2}$ are the roots of the equation $x^{2}+2 x \\tan \\theta-1=0$. If $\\alpha_{1}>\\beta_{1}$ and $\\alpha_{2}>\\beta_{2}$, then $\\alpha_{1}+\\beta_{2}$ equals (A) $2(\\sec \\theta-\\tan \\theta)$ (B) $2 \\sec \\theta$ (C) $-2 \\tan \\theta$ (D) 0\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "For the first equation: $x^{2}-2 x \\sec \\theta+1=0$\nUsing the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$, the roots are:\n$$x = \\frac{2 \\sec \\theta \\pm \\sqrt{(-2 \\sec \\theta)^2 - 4(1)(1)}}{2(1)}$$\n$$x = \\frac{2 \\sec \\theta \\pm \\sqrt{4 \\sec^2 \\theta - 4}}{2}$$\n$$x = \\frac{2 \\sec \\theta \\pm \\sqrt{4(\\sec^2 \\theta - 1)}}{2}$$\nSince $\\sec^2 \\theta - 1 = \\tan^2 \\theta$, we have:\n$$x = \\frac{2 \\sec \\theta \\pm \\sqrt{4 \\tan^2 \\theta}}{2}$$\n$$x = \\frac{2 \\sec \\theta \\pm 2|\\tan \\theta|}{2}$$\n$$x = \\sec \\theta \\pm |\\tan \\theta|$$ \nGiven $-\\frac{\\pi}{6} < \\theta < -\\frac{\\pi}{12}$, $\\theta$ is in the fourth quadrant. In the fourth quadrant, $\\tan \\theta < 0$, so $|\\tan \\theta| = -\\tan \\theta$.\nThe roots are $x = \\sec \\theta \\pm (-\\tan \\theta)$, which gives:\n$\\sec \\theta - \\tan \\theta$ and $\\sec \\theta + \\tan \\theta$.\nSince $\\alpha_{1}>\\beta_{1}$ and $\\tan \\theta < 0$ (implying $-\\tan \\theta > 0$), we have $\\sec \\theta - \\tan \\theta > \\sec \\theta + \\tan \\theta$.\nTherefore, $\\alpha_1 = \\sec \\theta - \\tan \\theta$ and $\\beta_1 = \\sec \\theta + \\tan \\theta$.\n\nFor the second equation: $x^{2}+2 x \\tan \\theta-1=0$\nUsing the quadratic formula:\n$$x = \\frac{-2 \\tan \\theta \\pm \\sqrt{(2 \\tan \\theta)^2 - 4(1)(-1)}}{2(1)}$$\n$$x = \\frac{-2 \\tan \\theta \\pm \\sqrt{4 \\tan^2 \\theta + 4}}{2}$$\n$$x = \\frac{-2 \\tan \\theta \\pm \\sqrt{4(\\tan^2 \\theta + 1)}}{2}$$\nSince $\\tan^2 \\theta + 1 = \\sec^2 \\theta$, we have:\n$$x = \\frac{-2 \\tan \\theta \\pm \\sqrt{4 \\sec^2 \\theta}}{2}$$\n$$x = \\frac{-2 \\tan \\theta \\pm 2|\\sec \\theta|}{2}$$\n$$x = -\\tan \\theta \\pm |\\sec \\theta|$$\nGiven $-\\frac{\\pi}{6} < \\theta < -\\frac{\\pi}{12}$, $\\theta$ is in the fourth quadrant. In the fourth quadrant, $\\sec \\theta > 0$, so $|\\sec \\theta| = \\sec \\theta$.\nThe roots are $x = -\\tan \\theta \\pm \\sec \\theta$, which gives:\n$-\\tan \\theta + \\sec \\theta$ and $-\\tan \\theta - \\sec \\theta$.\nSince $\\alpha_{2}>\\beta_{2}$ and $\\sec \\theta > 0$, we have $-\\tan \\theta + \\sec \\theta > -\\tan \\theta - \\sec \\theta$.\nTherefore, $\\alpha_2 = -\\tan \\theta + \\sec \\theta$ and $\\beta_2 = -\\tan \\theta - \\sec \\theta$.\n\nNow, we need to find $\\alpha_1 + \\beta_2$:\n$\\alpha_1 + \\beta_2 = (\\sec \\theta - \\tan \\theta) + (-\\tan \\theta - \\sec \\theta)$\n$\\alpha_1 + \\beta_2 = \\sec \\theta - \\tan \\theta - \\tan \\theta - \\sec \\theta$\n$\\alpha_1 + \\beta_2 = -2 \\tan \\theta$\n\nFinal Answer: The final answer is $\\boxed{-2 \\tan \\theta}$"
+            },
+            "extract": "C"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2016 Paper 1",
+      "index": 38,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "A debate club consists of 6 girls and 4 boys. A team of 4 members is to be selected from this club including the selection of a captain (from among these 4 members) for the team. If the team has to include at most one boy, then the number of ways of selecting the team is (A) 380 (B) 320 (C) 260 (D) 95",
+      "gold": "A",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: A debate club consists of 6 girls and 4 boys. A team of 4 members is to be selected from this club including the selection of a captain (from among these 4 members) for the team. If the team has to include at most one boy, then the number of ways of selecting the team is (A) 380 (B) 320 (C) 260 (D) 95\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "The debate club has 6 girls and 4 boys. A team of 4 members is to be selected with at most one boy, and a captain is to be selected from these 4 members.\n\nWe need to consider two cases for the composition of the team:\n\nCase 1: The team has 0 boys.\nIf the team has 0 boys, then all 4 members must be girls. The number of ways to select 4 girls from 6 girls is $\\binom{6}{4}$.\n$\\binom{6}{4} = \\frac{6!}{4!(6-4)!} = \\frac{6!}{4!2!} = \\frac{6 \\times 5}{2 \\times 1} = 15$.\nAfter selecting the 4 members, a captain must be chosen from these 4 members. There are 4 choices for the captain.\nSo, the number of ways for Case 1 is $15 \\times 4 = 60$.\n\nCase 2: The team has 1 boy.\nIf the team has 1 boy, then the remaining 3 members must be girls. The number of ways to select 1 boy from 4 boys is $\\binom{4}{1}$.\n$\\binom{4}{1} = 4$.\nThe number of ways to select 3 girls from 6 girls is $\\binom{6}{3}$.\n$\\binom{6}{3} = \\frac{6!}{3!(6-3)!} = \\frac{6 \\times 5 \\times 4}{3 \\times 2 \\times 1} = 20$.\nThe number of ways to form a team of 1 boy and 3 girls is $\\binom{4}{1} \\times \\binom{6}{3} = 4 \\times 20 = 80$.\nAfter selecting the 4 members, a captain must be chosen from these 4 members. There are 4 choices for the captain.\nSo, the number of ways for Case 2 is $80 \\times 4 = 320$.\n\nTotal number of ways to select the team is the sum of ways from Case 1 and Case 2.\nTotal ways = (Ways for 0 boys) + (Ways for 1 boy)\nTotal ways = $60 + 320 = 380$.\n\nFinal Answer: The final answer is $\\boxed{380}$"
+            },
+            "extract": "A"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2016 Paper 1",
+      "index": 41,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "The least value of $\\alpha \\in \\mathbb{R}$ for which $4 \\alpha x^{2}+\\frac{1}{x} \\geq 1$, for all $x>0$, is (A) $\\frac{1}{64}$ (B) $\\frac{1}{32}$ (C) $\\frac{1}{27}$ (D) $\\frac{1}{25}$",
+      "gold": "C",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: The least value of $\\alpha \\in \\mathbb{R}$ for which $4 \\alpha x^{2}+\\frac{1}{x} \\geq 1$, for all $x>0$, is (A) $\\frac{1}{64}$ (B) $\\frac{1}{32}$ (C) $\\frac{1}{27}$ (D) $\\frac{1}{25}$\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "We are given the inequality $4 \\alpha x^{2}+\\frac{1}{x} \\geq 1$ for all $x>0$. We need to find the least value of $\\alpha$.\nRearranging the inequality, we get $4 \\alpha x^{2}+\\frac{1}{x} - 1 \\geq 0$.\nLet $f(x) = 4 \\alpha x^{2}+\\frac{1}{x}$. We want $f(x) \\geq 1$ for all $x>0$.\nTo find the minimum value of $f(x)$, we can use calculus. Let's find the first derivative and set it to zero.\n$f'(x) = \\frac{d}{dx} (4 \\alpha x^{2} + x^{-1})$\n$f'(x) = 8 \\alpha x - x^{-2}$\nSet $f'(x) = 0$ to find critical points:\n$8 \\alpha x - \\frac{1}{x^2} = 0$\n$8 \\alpha x = \\frac{1}{x^2}$\n$8 \\alpha x^3 = 1$\n$x^3 = \\frac{1}{8 \\alpha}$\n$x = \\left(\\frac{1}{8 \\alpha}\\right)^{1/3} = \\frac{1}{2 \\alpha^{1/3}}$\n\nFor $f(x)$ to have a minimum, the second derivative $f''(x)$ must be positive at this critical point.\n$f''(x) = \\frac{d}{dx} (8 \\alpha x - x^{-2})$\n$f''(x) = 8 \\alpha - (-2)x^{-3}$\n$f''(x) = 8 \\alpha + \\frac{2}{x^3}$\nSince $x>0$ and we are looking for a positive $\\alpha$ (as $4\\alpha x^2$ must be positive to ensure $f(x) \\geq 1$), $f''(x)$ will always be positive at the critical point $x = \\frac{1}{2 \\alpha^{1/3}}$. This confirms it's a minimum.\n\nSubstitute the value of $x$ back into the original inequality $4 \\alpha x^{2}+\\frac{1}{x} \\geq 1$:\n$4 \\alpha \\left(\\frac{1}{2 \\alpha^{1/3}}\\right)^{2} + \\frac{1}{\\frac{1}{2 \\alpha^{1/3}}} \\geq 1$\n$4 \\alpha \\left(\\frac{1}{4 \\alpha^{2/3}}\\right) + 2 \\alpha^{1/3} \\geq 1$\n$\\frac{4 \\alpha}{4 \\alpha^{2/3}} + 2 \\alpha^{1/3} \\geq 1$\n$\\alpha^{1/3} + 2 \\alpha^{1/3} \\geq 1$\n$3 \\alpha^{1/3} \\geq 1$\n$\\alpha^{1/3} \\geq \\frac{1}{3}$\nCube both sides:\n$(\\alpha^{1/3})^3 \\geq \\left(\\frac{1}{3}\\right)^3$\n$\\alpha \\geq \\frac{1}{27}$\n\nThus, the least value of $\\alpha$ for which the inequality holds is $\\frac{1}{27}$.\n\nAlternatively, we can use AM-GM inequality. We need to split $\\frac{1}{x}$ into two parts to match the power of $x^2$. It's better to make the terms $4\\alpha x^2$, $\\frac{1}{2x}$, $\\frac{1}{2x}$. But that is for $3$ terms, and the equality holds when all terms are equal. This leads to issues with the form $4\\alpha x^2 + \\frac{1}{x}$.\nLet's rewrite $4 \\alpha x^{2} + \\frac{1}{x}$ as $4 \\alpha x^{2} + \\frac{1}{2x} + \\frac{1}{2x}$.\nBy AM-GM inequality for three positive numbers $a, b, c$, we have $\\frac{a+b+c}{3} \\geq \\sqrt[3]{abc}$.\nSo, $4 \\alpha x^{2} + \\frac{1}{2x} + \\frac{1}{2x} \\geq 3 \\sqrt[3]{(4 \\alpha x^{2}) \\left(\\frac{1}{2x}\\right) \\left(\\frac{1}{2x}\\right)}$\n$4 \\alpha x^{2} + \\frac{1}{x} \\geq 3 \\sqrt[3]{\\frac{4 \\alpha x^2}{4x^2}}$\n$4 \\alpha x^{2} + \\frac{1}{x} \\geq 3 \\sqrt[3]{\\alpha}$\nFor the inequality $4 \\alpha x^{2} + \\frac{1}{x} \\geq 1$ to hold, we must have $3 \\sqrt[3]{\\alpha} \\geq 1$ (this is the minimum value).\n$3 \\sqrt[3]{\\alpha} \\geq 1$\n$\\sqrt[3]{\\alpha} \\geq \\frac{1}{3}$\n$\\alpha \\geq \\left(\\frac{1}{3}\\right)^3$\n$\\alpha \\geq \\frac{1}{27}$\nThe equality holds when $4 \\alpha x^{2} = \\frac{1}{2x}$, which gives $8 \\alpha x^3 = 1$, or $x = \\frac{1}{(8 \\alpha)^{1/3}}$. This is the same critical point found using calculus.\n\nFinal Answer: The final answer is $\\boxed{\\frac{1}{27}}$"
+            },
+            "extract": "C"
+          }
+        ]
+      }
+    }
+,
+    {
+      "description": "JEE Adv 2016 Paper 1",
+      "index": 53,
+      "subject": "math",
+      "type": "Integer",
+      "question": "Let $\\alpha, \\beta \\in \\mathbb{R}$ be such that $\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{\\alpha x-\\sin x}=1$.Then what is the value of $6(\\alpha+\\beta)$?",
+      "gold": "7",
+      "difficulty_label": "Easy",
+      "topic": "Calculus: Limits",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: Let $\\alpha, \\beta \\in \\mathbb{R}$ be such that $\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{\\alpha x-\\sin x}=1$.Then what is the value of $6(\\alpha+\\beta)$?\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+        "message": {
+          "content": "We are given the limit $\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{\\alpha x-\\sin x}=1$.\n\nFirst, let's analyze the numerator and denominator as $x \\rightarrow 0$.\nNumerator: $x^2 \\sin (\\beta x)$. As $x \\rightarrow 0$, $\\sin (\\beta x) \\approx \\beta x$. So, $x^2 \\sin (\\beta x) \\approx x^2 (\\beta x) = \\beta x^3$.\n\nDenominator: $\\alpha x - \\sin x$. As $x \\rightarrow 0$, we use the Taylor expansion for $\\sin x$ around $x=0$: $\\sin x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots$\nSo, $\\alpha x - \\sin x = \\alpha x - (x - \\frac{x^3}{6} + \\frac{x^5}{120} - \\dots) = (\\alpha - 1)x + \\frac{x^3}{6} - \\frac{x^5}{120} + \\dots$\n\nFor the limit to be a finite non-zero value (in this case, 1), the lowest power of $x$ in the numerator and the denominator must be the same.\nThe lowest power in the numerator is $x^3$.\nFor the lowest power in the denominator to be $x^3$, the term with $x$ must vanish, which means $(\\alpha - 1)x$ must be 0 for it to be non-dominant. This implies $\\alpha - 1 = 0$, so $\\alpha = 1$.\n\nNow, substitute $\\alpha = 1$ into the denominator:\nDenominator = $1 \\cdot x - \\sin x = x - (x - \\frac{x^3}{6} + \\frac{x^5}{120} - \\dots) = \\frac{x^3}{6} - \\frac{x^5}{120} + \\dots$\n\nNow rewrite the limit:\n$\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{\\alpha x-\\sin x} = \\lim _{x \\rightarrow 0} \\frac{x^{2} (\\beta x - \\frac{(\\beta x)^3}{3!} + \\dots)}{(\\alpha - 1)x + \\frac{x^3}{6} - \\frac{x^5}{120} + \\dots}$\n\nSince the limit is 1 (a non-zero finite value), the lowest power of $x$ in the numerator and denominator must be the same.\nThe lowest power in the numerator is from $x^2 (\\beta x) = \\beta x^3$.\nThe lowest power in the denominator is from $(\\alpha - 1)x$. If $\\alpha - 1 \\neq 0$, the limit would be $\\lim_{x \\to 0} \\frac{\\beta x^3}{(\\alpha-1)x} = \\lim_{x \\to 0} \\frac{\\beta x^2}{\\alpha-1} = 0$, which is not 1.\nTherefore, we must have $\\alpha - 1 = 0 \\Rightarrow \\alpha = 1$.\n\nNow, the limit becomes:\n$\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{x - \\sin x}$\nUsing the Taylor expansion for $\\sin x$ in the denominator: $x - \\sin x = x - (x - \\frac{x^3}{3!} + O(x^5)) = \\frac{x^3}{6} + O(x^5)$.\nUsing the Taylor expansion for $\\sin (\\beta x)$ in the numerator: $\\sin (\\beta x) = \\beta x - \\frac{(\\beta x)^3}{3!} + O(x^5)$.\n\nSubstitute these into the limit expression:\n$\\lim _{x \\rightarrow 0} \\frac{x^{2} (\\beta x - \\frac{\\beta^3 x^3}{6} + O(x^5))}{\\frac{x^3}{6} + O(x^5)}$\n$\\lim _{x \\rightarrow 0} \\frac{\\beta x^3 - \\frac{\\beta^3 x^5}{6} + O(x^7)}{\\frac{x^3}{6} + O(x^5)}$\nDivide both numerator and denominator by $x^3$:\n$\\lim _{x \\rightarrow 0} \\frac{\\beta - \\frac{\\beta^3 x^2}{6} + O(x^4)}{\\frac{1}{6} + O(x^2)}$\nAs $x \\rightarrow 0$, this becomes:\n$\\frac{\\beta}{1/6} = 6\\beta$\n\nWe are given that this limit equals 1.\nSo, $6\\beta = 1 \\Rightarrow \\beta = \\frac{1}{6}$.\n\nWe need to find the value of $6(\\alpha+\\beta)$.\n$6(\\alpha+\\beta) = 6(1 + \\frac{1}{6})$\n$6(\\alpha+\\beta) = 6(1 + 0.1666...)$ This is not working because of exact value, let's keep it in fraction\n$6(\\alpha+\\beta) = 6\\left(\\frac{6}{6} + \\frac{1}{6}\\right)$\n$6(\\alpha+\\beta) = 6\\left(\\frac{7}{6}\\right)$\n$6(\\alpha+\\beta) = 7$.\n\nFinal Answer: The final answer is $\\boxed{7}$"
+          },
+            "extract": "7"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2016 Paper 2",
+      "index": 40,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "The value of $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{x}} d x$ is equal to (A) $\\frac{\\pi^{2}}{4}-2$ (B) $\\frac{\\pi^{2}}{4}+2$ (C) $\\pi^{2}-e^{\\frac{\\pi}{2}}$ (D) $\\pi^{2}+e^{\\frac{\\pi}{2}}$",
+      "gold": "A",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: The value of $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{x}} d x$ is equal to (A) $\\frac{\\pi^{2}}{4}-2$ (B) $\\frac{\\pi^{2}}{4}+2$ (C) $\\pi^{2}-e^{\\frac{\\pi}{2}}$ (D) $\\pi^{2}+e^{\\frac{\\pi}{2}}$\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "Let the given integral be $I$.\n$I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{x}} d x$\n\nWe can use the property of definite integrals: $\\int_{a}^{b} f(x) dx = \\int_{a}^{b} f(a+b-x) dx$.\nHere, $a = -\\frac{\\pi}{2}$ and $b = \\frac{\\pi}{2}$, so $a+b-x = -x$.\n\nLet's apply this property to the integral:\n$I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{(-x)^{2} \\cos (-x)}{1+e^{-x}} d x$\nSince $(-x)^2 = x^2$ and $\\cos(-x) = \\cos x$, we have:\n$I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{-x}} d x$\n$I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{\\frac{e^x+1}{e^x}} d x$\n$I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{e^x x^{2} \\cos x}{1+e^{x}} d x$\n\nNow, add the original integral and this transformed integral:\n$2I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x}{1+e^{x}} d x + \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{e^x x^{2} \\cos x}{1+e^{x}} d x$\n$2I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} \\frac{x^{2} \\cos x (1+e^x)}{1+e^{x}} d x$\n$2I = \\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}} x^{2} \\cos x d x$\n\nThe integrand $f(x) = x^2 \\cos x$ is an even function because $f(-x) = (-x)^2 \\cos(-x) = x^2 \\cos x = f(x)$.\nFor an even function integrated from $-a$ to $a$, we have $\\int_{-a}^{a} f(x) dx = 2 \\int_{0}^{a} f(x) dx$.\nSo, $2I = 2 \\int_{0}^{\\frac{\\pi}{2}} x^{2} \\cos x d x$\n$I = \\int_{0}^{\\frac{\\pi}{2}} x^{2} \\cos x d x$\n\nNow, we need to evaluate this integral using integration by parts, $\\int u dv = uv - \\int v du$.\nLet $u = x^2$, $dv = \\cos x dx$. Then $du = 2x dx$, $v = \\sin x$.\n$I = [x^2 \\sin x]_{0}^{\\frac{\\pi}{2}} - \\int_{0}^{\\frac{\\pi}{2}} (\\sin x)(2x) d x$\n$I = \\left( (\\frac{\\pi}{2})^2 \\sin(\\frac{\\pi}{2}) - (0)^2 \\sin(0) \\right) - 2 \\int_{0}^{\\frac{\\pi}{2}} x \\sin x d x$\n$I = \\frac{\\pi^2}{4} (1) - 0 - 2 \\int_{0}^{\\frac{\\pi}{2}} x \\sin x d x$\n$I = \\frac{\\pi^2}{4} - 2 \\int_{0}^{\\frac{\\pi}{2}} x \\sin x d x$\n\nNow, let's evaluate the second integral $\\int_{0}^{\\frac{\\pi}{2}} x \\sin x d x$ using integration by parts again.\nLet $u = x$, $dv = \\sin x dx$. Then $du = dx$, $v = -\\cos x$.\n$\\int_{0}^{\\frac{\\pi}{2}} x \\sin x d x = [x (-\\cos x)]_{0}^{\\frac{\\pi}{2}} - \\int_{0}^{\\frac{\\pi}{2}} (-\\cos x) d x$\n$= \\left( -\\frac{\\pi}{2} \\cos(\\frac{\\pi}{2}) - (0)(-\\cos(0)) \\right) - [-\\sin x]_{0}^{\\frac{\\pi}{2}}$\n$= \\left( -\\frac{\\pi}{2} (0) - 0 \\right) + [\\sin x]_{0}^{\\frac{\\pi}{2}}$\n$= 0 + (\\sin(\\frac{\\pi}{2}) - \\sin(0))$\n$= 1 - 0 = 1$\n\nSubstitute this back into the expression for $I$:\n$I = \\frac{\\pi^2}{4} - 2 (1)$\n$I = \\frac{\\pi^2}{4} - 2$\n\nFinal Answer: The final answer is $\\boxed{\\frac{\\pi^{2}}{4}-2}$"
+            },
+            "extract": "A"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2017 Paper 1",
+      "index": 48,
+      "subject": "math",
+      "type": "Integer",
+      "question": "The sides of a right angled triangle are in arithmetic progression. If the triangle has area 24, then what is the length of its smallest side?",
+      "gold": "6",
+      "difficulty_label": "Easy",
+      "topic": "Trigonometry: Properties of Triangles",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: The sides of a right angled triangle are in arithmetic progression. If the triangle has area 24, then what is the length of its smallest side?\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "Let the sides of the right-angled triangle be $a-d$, $a$, and $a+d$, since they are in arithmetic progression. Since it's a right-angled triangle, the longest side must be the hypotenuse, so $a+d$ is the hypotenuse.\nBy the Pythagorean theorem:\n$(a-d)^2 + a^2 = (a+d)^2$\n$a^2 - 2ad + d^2 + a^2 = a^2 + 2ad + d^2$\n$2a^2 - 2ad + d^2 = a^2 + 2ad + d^2$\n$a^2 - 4ad = 0$\n$a(a - 4d) = 0$\nSince $a$ is a side length, $a \\neq 0$. Therefore, $a - 4d = 0$, which implies $a = 4d$.\n\nNow, substitute $a=4d$ back into the side lengths:\nSmallest side: $a-d = 4d-d = 3d$\nMiddle side: $a = 4d$\nHypotenuse: $a+d = 4d+d = 5d$\nSo the sides are $3d, 4d, 5d$. This is a well-known Pythagorean triplet scaled by $d$.\n\nThe area of a right-angled triangle is given by $\\frac{1}{2} \\times \\text{base} \\times \\text{height}$. The two shorter sides are the base and height.\nArea $= \\frac{1}{2} \\times (3d) \\times (4d) = 6d^2$.\n\nWe are given that the area is 24.\nSo, $6d^2 = 24$\n$d^2 = 4$\n$d = 2$ (since $d$ must be positive for the sides to be positive lengths).\n\nThe lengths of the sides are:\nSmallest side: $3d = 3(2) = 6$\nMiddle side: $4d = 4(2) = 8$\nHypotenuse: $5d = 5(2) = 10$\n\nThe question asks for the length of its smallest side.\n\nFinal Answer: The final answer is $\\boxed{6}$"
+            },
+            "extract": "6"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2017 Paper 1",
+      "index": 44,
+      "subject": "math",
+      "type": "Integer",
+      "question": "For how many values of $p$, the circle $x^{2}+y^{2}+2 x+4 y-p=0$ and the coordinate axes have exactly three common points?",
+      "gold": "2",
+      "difficulty_label": "Easy",
+      "topic": "Coordinate Geometry: Circles",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: For how many values of $p$, the circle $x^{2}+y^{2}+2 x+4 y-p=0$ and the coordinate axes have exactly three common points?\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+          "message": {
+            "content": "The equation of the circle is $x^{2}+y^{2}+2 x+4 y-p=0$.\n\nWe can rewrite this in standard form $(x-h)^2 + (y-k)^2 = r^2$ by completing the square:\n$(x^2 + 2x + 1) + (y^2 + 4y + 4) - p - 1 - 4 = 0$\n$(x+1)^2 + (y+2)^2 = p+5$\n\nThe center of the circle is $C(-1, -2)$ and the radius squared is $r^2 = p+5$. For a circle to exist, $p+5 > 0$, so $p > -5$.\n\n**Intersections with the axes:**\n\n**x-axis (y = 0):**\n$x^2 + 2x - p = 0$ → discriminant $D_x = 4 + 4p$. Real roots if $D_x \\geq 0$ → $p \\geq -1$\n\n**y-axis (x = 0):**\n$y^2 + 4y - p = 0$ → discriminant $D_y = 16 + 4p$. Real roots if $D_y \\geq 0$ → $p \\geq -4$\n\nWe want **exactly 3 points** in common with the coordinate axes. This can happen in one of two valid scenarios:\n\n### Case 1: Circle passes through the origin (0, 0)\nSubstitute $(0,0)$ into the circle: $0 + 0 + 0 + 0 - p = 0$ → $p = 0$.\n\nThen:\n- x-intercepts: $x^2 + 2x = 0$ → $x = 0, -2$ → Points: $(0,0)$, $(-2,0)$\n- y-intercepts: $y^2 + 4y = 0$ → $y = 0, -4$ → Points: $(0,0)$, $(0,-4)$\n\nDistinct intersection points: $(0,0)$, $(-2,0)$, $(0,-4)$ → ✅ 3 points. So, $p = 0$ is a solution.\n\n### Case 2: Tangent to one axis and intersects the other at two distinct points\n\n#### Subcase A: Tangent to x-axis ($D_x = 0$), intersect y-axis at two points ($D_y > 0$)\n$D_x = 0$ → $4 + 4p = 0$ → $p = -1$\nCheck $D_y$: $16 + 4(-1) = 12 > 0$ → Valid.\n\n- x-intercept: $(x+1)^2 = 0$ → $x = -1$ → $(-1,0)$\n- y-intercepts: $y = -2 \\pm \\sqrt{3}$ → $(0,-2+\\sqrt{3})$, $(0,-2-\\sqrt{3})$\n\nThree distinct points: ✅ So, $p = -1$ is also a solution.\n\n#### Subcase B: Tangent to y-axis ($D_y = 0$), intersect x-axis at two points ($D_x > 0$)\n$D_y = 0$ → $16 + 4p = 0$ → $p = -4$\nCheck $D_x$: $4 + 4(-4) = -12 < 0$ → No x-intercepts → ❌ Not valid.\n\n### ✅ Final Result:\nValid values of $p$: $0$ and $-1$.\n\n**Answer: \\boxed{2}**"
+        },
+
+            "extract": "2"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2023 Paper 1",
+      "index": 7,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "Let $P$ be a point on the parabola $y^{2}=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is (A) $(2,3)$ (B) $(1,3)$ (C) $(2,4)$ (D) $(3,4)$",
+      "gold": "A",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: Let $P$ be a point on the parabola $y^{2}=4 a x$, where $a>0$. The normal to the parabola at $P$ meets the $x$-axis at a point $Q$. The area of the triangle $P F Q$, where $F$ is the focus of the parabola, is 120 . If the slope $m$ of the normal and $a$ are both positive integers, then the pair $(a, m)$ is (A) $(2,3)$ (B) $(1,3)$ (C) $(2,4)$ (D) $(3,4)$\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+        "message": {
+          "content": "The equation of the parabola is \\( y^2 = 4ax \\). The focus of this parabola is \\( F(a, 0) \\).\nLet the point \\( P \\) on the parabola be \\( (at^2, 2at) \\).\n\nThe equation of the normal to the parabola \\( y^2 = 4ax \\) at the point \\( (at^2, 2at) \\) is given by:\n\\( y = -tx + 2at + at^3 \\)\nThe slope of the normal is \\( -t \\). We are given that the slope of the normal is \\( m \\), so \\( m = -t \\).\nSince \\( m \\) is a positive integer, \\( t \\) must be a negative integer. Let \\( t = -m \\).\n\nSubstitute \\( t = -m \\) into the equation of the normal:\n\\( y = mx + 2a(-m) + a(-m)^3 \\)\n\\( y = mx - 2am - am^3 \\)\n\nThe normal meets the x-axis at point \\( Q \\). To find \\( Q \\), set \\( y = 0 \\):\n\\( 0 = mx - 2am - am^3 \\)\n\\( mx = 2am + am^3 \\)\n\\( x = 2a + am^2 \\)\nSo, the coordinates of point \\( Q \\) are \\( (2a + am^2, 0) \\).\n\nThe coordinates of point \\( P \\) are \\( a(-m)^2, 2a(-m) = (am^2, -2am) \\).\n\nWe have the three vertices of the triangle \\( \\triangle PFQ \\):\n\\( P(am^2, -2am) \\)\n\\( F(a, 0) \\)\n\\( Q(2a + am^2, 0) \\)\n\nWe can calculate the area of triangle \\( PFQ \\). The base of the triangle can be taken as \\( FQ \\), which lies on the x-axis. The length of the base \\( FQ \\) is \\( |(2a + am^2) - a| = |a + am^2| = a(1+m^2) \\) (since \\( a > 0, m > 0 \\)).\nThe height of the triangle with respect to base \\( FQ \\) is the absolute value of the y-coordinate of point \\( P \\), which is \\( |-2am| = 2am \\).\n\nArea of \\( \\triangle PFQ = \\frac{1}{2} \\times \\text{base} \\times \\text{height} \\)\nArea \\( = \\frac{1}{2} \\times a(1+m^2) \\times 2am \\)\nArea \\( = a^2 m (1 + m^2) \\)\n\nWe are given that the area is 120:\n\\( a^2 m (1 + m^2) = 120 \\)\n\nWe are also given that \\( a \\) and \\( m \\) are positive integers. We need to find the pair \\( (a, m) \\) from the given options.\n\nLet's test the options:\n\n(A) \\( (a, m) = (2, 3) \\)\n\\( a^2 = 4 \\), Area \\( = 4 \\times 3 \\times (1 + 9) = 12 \\times 10 = 120 \\) ✅\n\n(B) \\( (a, m) = (1, 3) \\)\nArea \\( = 1 \\times 3 \\times 10 = 30 \\) ❌\n\n(C) \\( (a, m) = (2, 4) \\)\nArea \\( = 4 \\times 4 \\times 17 = 272 \\) ❌\n\n(D) \\( (a, m) = (3, 4) \\)\nArea \\( = 9 \\times 4 \\times 17 = 612 \\) ❌\n\nFinal Answer: \\( \\boxed{(2,3)} \\)"
+        },
+            "extract": "A"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2017 Paper 2",
+      "index": 37,
+      "subject": "math",
+      "type": "MCQ",
+      "question": "The equation of the plane passing through the point $(1,1,1)$ and perpendicular to the planes $2 x+y-2 z=5$ and $3 x-6 y-2 z=7$, is\n\n[A] $14 x+2 y-15 z=1$\n\n[B] $14 x-2 y+15 z=27$\n\n[C] $\\quad 14 x+2 y+15 z=31$\n\n[D] $-14 x+2 y+15 z=3$",
+      "gold": "C",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: The equation of the plane passing through the point $(1,1,1)$ and perpendicular to the planes $2 x+y-2 z=5$ and $3 x-6 y-2 z=7$, is\n\n[A] $14 x+2 y-15 z=1$\n\n[B] $14 x-2 y+15 z=27$\n\n[C] $\\quad 14 x+2 y+15 z=31$\n\n[D] $-14 x+2 y+15 z=3$\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "Let the equation of the required plane be $Ax + By + Cz = D$.\nThe normal vector to this plane is $\\vec{N} = (A, B, C)$.\n\nThe required plane is perpendicular to two given planes:\nPlane 1: $2x+y-2z=5$. Its normal vector is $\\vec{N_1} = (2, 1, -2)$.\nPlane 2: $3x-6y-2z=7$. Its normal vector is $\\vec{N_2} = (3, -6, -2)$.\n\nIf the required plane is perpendicular to Plane 1, then its normal vector $\\vec{N}$ must be perpendicular to $\\vec{N_1}$. This means their dot product is zero: $\\vec{N} \\cdot \\vec{N_1} = 0$.\n$2A + B - 2C = 0 \\quad (1)$\n\nIf the required plane is perpendicular to Plane 2, then its normal vector $\\vec{N}$ must be perpendicular to $\\vec{N_2}$. This means their dot product is zero: $\\vec{N} \\cdot \\vec{N_2} = 0$.\n$3A - 6B - 2C = 0 \\quad (2)$\n\nAlternatively, if a plane is perpendicular to two planes, its normal vector is parallel to the cross product of the normal vectors of the two given planes. So, $\\vec{N} = \\vec{N_1} \\times \\vec{N_2}$.\n\n$\\vec{N_1} \\times \\vec{N_2} = \\begin{vmatrix} \\mathbf{i} & \\mathbf{j} & \\mathbf{k} \\\\ 2 & 1 & -2 \\\\ 3 & -6 & -2 \\end{vmatrix}$\n$= \\mathbf{i}((1)(-2) - (-2)(-6)) - \\mathbf{j}((2)(-2) - (-2)(3)) + \\mathbf{k}((2)(-6) - (1)(3))$\n$= \\mathbf{i}(-2 - 12) - \\mathbf{j}(-4 + 6) + \\mathbf{k}(-12 - 3)$\n$= -14\\mathbf{i} - 2\\mathbf{j} - 15\\mathbf{k}$\n\nSo, the normal vector of the required plane is proportional to $(-14, -2, -15)$.\nWe can choose $A = -14$, $B = -2$, $C = -15$, or we can multiply by -1 to get positive leading coefficients, so $A=14, B=2, C=15$.\n\nLet's choose $\\vec{N} = (14, 2, 15)$.\nSo the equation of the plane is $14x + 2y + 15z = D$.\n\nThe plane passes through the point $(1,1,1)$. Substitute this point into the equation to find $D$:\n$14(1) + 2(1) + 15(1) = D$\n$14 + 2 + 15 = D$\n$31 = D$\n\nThus, the equation of the plane is $14x + 2y + 15z = 31$.\n\nThis matches option (C).\n\nFinal Answer: The final answer is $\\boxed{14 x+2 y+15 z=31}$"
+            },
+            "extract": "C"
+          }
+        ]
+      }
+    },
+    {
+      "description": "JEE Adv 2022 Paper 1",
+      "index": 3,
+      "subject": "math",
+      "type": "Numeric",
+      "question": "In a study about a pandemic, data of 900 persons was collected. It was found that\n\n190 persons had symptom of fever,\n\n220 persons had symptom of cough,\n\n220 persons had symptom of breathing problem,\n\n330 persons had symptom of fever or cough or both,\n\n350 persons had symptom of cough or breathing problem or both,\n\n340 persons had symptom of fever or breathing problem or both,\n\n30 persons had all three symptoms (fever, cough and breathing problem).\n\nIf a person is chosen randomly from these 900 persons, then what the probability that the person has at most one symptom?",
+      "gold": "0.8",
+      "difficulty_label": "Easy",
+      "topic": "Algebra: Probability",
+      "prompt": "In this problem, only one option will be correct. Give a detailed solution and end the solution with the final answer.\n\nProblem: In a study about a pandemic, data of 900 persons was collected. It was found that\n\n190 persons had symptom of fever,\n\n220 persons had symptom of cough,\n\n220 persons had symptom of breathing problem,\n\n330 persons had symptom of fever or cough or both,\n\n350 persons had symptom of cough or breathing problem or both,\n\n340 persons had symptom of fever or breathing problem or both,\n\n30 persons had all three symptoms (fever, cough and breathing problem).\n\nIf a person is chosen randomly from these 900 persons, then what the probability that the person has at most one symptom?\nSolution: Let's think step by step.",
+      "Agentic_CoT_response": {
+        "choices": [
+          {
+            "message": {
+              "content": "Let F be the set of persons with fever symptom.\nLet C be the set of persons with cough symptom.\nLet B be the set of persons with breathing problem symptom.\nTotal number of persons, N = 900.\n\nGiven data:\n$|F| = 190$\n$|C| = 220$\n$|B| = 220$\n$|F \\cup C| = 330$\n$|C \\cup B| = 350$\n$|F \\cup B| = 340$\n$|F \\cap C \\cap B| = 30$\n\nWe need to find the number of persons with at most one symptom, which means (number of persons with exactly 0 symptoms) + (number of persons with exactly 1 symptom).\n\nFirst, let's find the number of people with exactly two symptoms.\nWe know the formula: $|A \\cup B| = |A| + |B| - |A \\cap B|$.\nFrom $|F \\cup C| = |F| + |C| - |F \\cap C|$:\n$330 = 190 + 220 - |F \\cap C|$\n$330 = 410 - |F \\cap C|$\n$|F \\cap C| = 410 - 330 = 80$\n\nFrom $|C \\cup B| = |C| + |B| - |C \\cap B|$:\n$350 = 220 + 220 - |C \\cap B|$\n$350 = 440 - |C \\cap B|$\n$|C \\cap B| = 440 - 350 = 90$\n\nFrom $|F \\cup B| = |F| + |B| - |F \\cap B|$:\n$340 = 190 + 220 - |F \\cap B|$\n$340 = 410 - |F \\cap B|$\n$|F \\cap B| = 410 - 340 = 70$\n\nNow, let's find the number of people who have at least one symptom, i.e., $|F \\cup C \\cup B|$.\nUsing the Principle of Inclusion-Exclusion:\n$|F \\cup C \\cup B| = |F| + |C| + |B| - (|F \\cap C| + |C \\cap B| + |F \\cap B|) + |F \\cap C \\cap B|$\n$|F \\cup C \\cup B| = 190 + 220 + 220 - (80 + 90 + 70) + 30$\n$|F \\cup C \\cup B| = 630 - 240 + 30$\n$|F \\cup C \\cup B| = 390 + 30 = 420$\n\nNumber of people with exactly one symptom:\nLet $N_1$ be the number of people with exactly one symptom.\n$N_1 = |F| + |C| + |B| - 2(|F \\cap C| + |C \\cap B| + |F \\cap B|) + 3|F \\cap C \\cap B|$\n$N_1 = 190 + 220 + 220 - 2(80 + 90 + 70) + 3(30)$\n$N_1 = 630 - 2(240) + 90$\n$N_1 = 630 - 480 + 90$\n$N_1 = 150 + 90 = 240$\n\nNumber of people with exactly two symptoms (and not all three):\n$N_2 = (|F \\cap C| + |C \\cap B| + |F \\cap B|) - 3|F \\cap C \\cap B|$\n$N_2 = (80 + 90 + 70) - 3(30)$\n$N_2 = 240 - 90 = 150$\n\nNumber of people with exactly three symptoms:\n$N_3 = |F \\cap C \\cap B| = 30$\n\nCheck: Total with at least one symptom should be $N_1 + N_2 + N_3 = 240 + 150 + 30 = 420$. This matches $|F \\cup C \\cup B|$.\n\nNumber of people with no symptoms (exactly 0 symptoms):\n$N_0 = N - |F \\cup C \\cup B| = 900 - 420 = 480$.\n\nWe need the probability that the person has at most one symptom. This means exactly 0 symptoms or exactly 1 symptom.\nNumber of persons with at most one symptom = $N_0 + N_1 = 480 + 240 = 720$.\n\nProbability = $\\frac{\\text{Number of persons with at most one symptom}}{\\text{Total number of persons}}$\nProbability = $\\frac{720}{900}$\nProbability = $\\frac{72}{90} = \\frac{8 \\times 9}{10 \\times 9} = \\frac{8}{10} = 0.8$.\n\nFinal Answer: The final answer is $\\boxed{0.8}$"
+            },
+            "extract": "0.8"
+          }
+        ]
+      }
+    }
+  ]

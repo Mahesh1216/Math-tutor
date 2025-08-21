@@ -1,0 +1,11 @@
+fastapi
+pydantic
+qdrant-client
+datasets
+langchain-google-genai
+langchain
+langchain-core
+langchain-community
+langgraph
+uvicorn
+langchain-tavily

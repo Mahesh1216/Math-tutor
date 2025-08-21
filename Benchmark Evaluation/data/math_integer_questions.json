@@ -1,0 +1,298 @@
+[
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 50,
+    "subject": "math",
+    "type": "Integer",
+    "question": "What is the total number of distinct $x \\in \\mathbb{R}$ for which $\\left|\\begin{array}{ccc}x & x^{2} & 1+x^{3} \\\\ 2 x & 4 x^{2} & 1+8 x^{3} \\\\ 3 x & 9 x^{2} & 1+27 x^{3}\\end{array}\\right|=10$?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 51,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $m$ be the smallest positive integer such that the coefficient of $x^{2}$ in the expansion of $(1+x)^{2}+(1+x)^{3}+\\cdots+(1+x)^{49}+(1+m x)^{50}$ is $(3 n+1){ }^{51} C_{3}$ for some positive integer $n$. Then what is the value of $n$?",
+    "gold": "5"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 52,
+    "subject": "math",
+    "type": "Integer",
+    "question": "What is the total number of distinct $x \\in[0,1]$ for which $\\int_{0}^{x} \\frac{t^{2}}{1+t^{4}} d t=2 x-1$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 53,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $\\alpha, \\beta \\in \\mathbb{R}$ be such that $\\lim _{x \\rightarrow 0} \\frac{x^{2} \\sin (\\beta x)}{\\alpha x-\\sin x}=1$.Then what is the value of $6(\\alpha+\\beta)$?",
+    "gold": "7"
+  },
+  {
+    "description": "JEE Adv 2016 Paper 1",
+    "index": 54,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $z=\\frac{-1+\\sqrt{3} i}{2}$, where $i=\\sqrt{-1}$, and $r, s \\in\\{1,2,3\\}$. Let $P=\\left[\\begin{array}{cc}(-z)^{r} & z^{2 s} \\\\ z^{2 s} & z^{r}\\end{array}\\right]$ and $I$ be the identity matrix of order 2 . Then what is the total number of ordered pairs $(r, s)$ for which $P^{2}=-I$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For how many values of $p$, the circle $x^{2}+y^{2}+2 x+4 y-p=0$ and the coordinate axes have exactly three common points?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function such that $f(0)=0, f\\left(\\frac{\\pi}{2}\\right)=3$ and $f^{\\prime}(0)=1$. If\n\n\\[\ng(x)=\\int_{x}^{\\frac{\\pi}{2}}\\left[f^{\\prime}(t) \\operatorname{cosec} t-\\cot t \\operatorname{cosec} t f(t)\\right] d t\n\\]\n\nfor $x \\in\\left(0, \\frac{\\pi}{2}\\right]$, then what is the $\\lim _{x \\rightarrow 0} g(x)$?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 46,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For a real number $\\alpha$, if the system\n\n\\[\n\\left[\\begin{array}{ccc}\n\n1 & \\alpha & \\alpha^{2} \\\\\n\n\\alpha & 1 & \\alpha \\\\\n\n\\alpha^{2} & \\alpha & 1\n\n\\end{array}\\right]\\left[\\begin{array}{l}\n\nx \\\\\n\ny \\\\\n\nz\n\n\\end{array}\\right]=\\left[\\begin{array}{r}\n\n1 \\\\\n\n-1 \\\\\n\n1\n\n\\end{array}\\right]\n\\]\n\nof linear equations, has infinitely many solutions, then what is the value of $1+\\alpha+\\alpha^{2}$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Words of length 10 are formed using the letters $A, B, C, D, E, F, G, H, I, J$. Let $x$ be the number of such words where no letter is repeated; and let $y$ be the number of such words where exactly one letter is repeated twice and no other letter is repeated. Then, what is the value of $\\frac{y}{9 x}$?",
+    "gold": "5"
+  },
+  {
+    "description": "JEE Adv 2017 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "Integer",
+    "question": "The sides of a right angled triangle are in arithmetic progression. If the triangle has area 24, then what is the length of its smallest side?",
+    "gold": "6"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 37,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For a complex number $z$, let $\\operatorname{Re}(z)$ denote the real part of $z$. Let $S$ be the set of all complex numbers $z$ satisfying $z^{4}-|z|^{4}=4 i z^{2}$, where $i=\\sqrt{-1}$. Then what is the minimum possible value of $\\left|z_{1}-z_{2}\\right|^{2}$, where $z_{1}, z_{2} \\in S$ with $\\operatorname{Re}\\left(z_{1}\\right)>0$ and $\\operatorname{Re}\\left(z_{2}\\right)<0$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 38,
+    "subject": "math",
+    "type": "Integer",
+    "question": "The probability that a missile hits a target successfully is 0.75 . In order to destroy the target completely, at least three successful hits are required. Then what is the minimum number of missiles that have to be fired so that the probability of completely destroying the target is NOT less than 0.95?",
+    "gold": "6"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 39,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $O$ be the centre of the circle $x^{2}+y^{2}=r^{2}$, where $r>\\frac{\\sqrt{5}}{2}$. Suppose $P Q$ is a chord of this circle and the equation of the line passing through $P$ and $Q$ is $2 x+4 y=5$. If the centre of the circumcircle of the triangle $O P Q$ lies on the line $x+2 y=4$, then what is the value of $r$?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 40,
+    "subject": "math",
+    "type": "Integer",
+    "question": "The trace of a square matrix is defined to be the sum of its diagonal entries. If $A$ is a $2 \\times 2$ matrix such that the trace of $A$ is 3 and the trace of $A^{3}$ is -18 , then what is the value of the determinant of $A$?",
+    "gold": "5"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 41,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let the functions $f:(-1,1) \\rightarrow \\mathbb{R}$ and $g:(-1,1) \\rightarrow(-1,1)$ be defined by\n\n\\[\nf(x)=|2 x-1|+|2 x+1| \\text { and } g(x)=x-[x] .\n\\]\n\nwhere $[x]$ denotes the greatest integer less than or equal to $x$. Let $f \\circ g:(-1,1) \\rightarrow \\mathbb{R}$ be the composite function defined by $(f \\circ g)(x)=f(g(x))$. Suppose $c$ is the number of points in the interval $(-1,1)$ at which $f \\circ g$ is NOT continuous, and suppose $d$ is the number of points in the interval $(-1,1)$ at which $f \\circ g$ is NOT differentiable. Then what is the value of $c+d$?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 42,
+    "subject": "math",
+    "type": "Integer",
+    "question": "What is the value of the limit\n\n\\[\n\\lim _{x \\rightarrow \\frac{\\pi}{2}} \\frac{4 \\sqrt{2}(\\sin 3 x+\\sin x)}{\\left(2 \\sin 2 x \\sin \\frac{3 x}{2}+\\cos \\frac{5 x}{2}\\right)-\\left(\\sqrt{2}+\\sqrt{2} \\cos 2 x+\\cos \\frac{3 x}{2}\\right)}\n\\]?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 53,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For $x \\in \\mathbb{R}$, what is the number of real roots of the equation\n\n\\[\n3 x^{2}-4\\left|x^{2}-1\\right|+x-1=0\n\\]?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 54,
+    "subject": "math",
+    "type": "Integer",
+    "question": "In a triangle $A B C$, let $A B=\\sqrt{23}, B C=3$ and $C A=4$. Then what is the value of\n\n\\[\n\\frac{\\cot A+\\cot C}{\\cot B}\n\\]?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 1,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $\\alpha$ and $\\beta$ be real numbers such that $-\\frac{\\pi}{4}<\\beta<0<\\alpha<\\frac{\\pi}{4}$. If $\\sin (\\alpha+\\beta)=\\frac{1}{3}$ and $\\cos (\\alpha-\\beta)=\\frac{2}{3}$, then what is the greatest integer less than or equal to\n\n\\[\n\\left(\\frac{\\sin \\alpha}{\\cos \\beta}+\\frac{\\cos \\beta}{\\sin \\alpha}+\\frac{\\cos \\alpha}{\\sin \\beta}+\\frac{\\sin \\beta}{\\cos \\alpha}\\right)^{2}\n\\]?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 2,
+    "subject": "math",
+    "type": "Integer",
+    "question": "If $y(x)$ is the solution of the differential equation\n\n\\[\nx d y-\\left(y^{2}-4 y\\right) d x=0 \\text { for } x>0, \\quad y(1)=2,\n\\]\n\nand the slope of the curve $y=y(x)$ is never zero, then what is the value of $10 y(\\sqrt{2})$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 4,
+    "subject": "math",
+    "type": "Integer",
+    "question": "What is the product of all positive real values of $x$ satisfying the equation\n\n\\[\nx^{\\left(16\\left(\\log _{5} x\\right)^{3}-68 \\log _{5} x\\right)}=5^{-16}\n\\]?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 5,
+    "subject": "math",
+    "type": "Integer",
+    "question": "If\n\n\\[\n\\beta=\\lim _{x \\rightarrow 0} \\frac{e^{x^{3}}-\\left(1-x^{3}\\right)^{\\frac{1}{3}}+\\left(\\left(1-x^{2}\\right)^{\\frac{1}{2}}-1\\right) \\sin x}{x \\sin ^{2} x},\n\\]\n\nthen what is the value of $6 \\beta$?",
+    "gold": "5"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 6,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $\\beta$ be a real number. Consider the matrix\n\n\\[\nA=\\left(\\begin{array}{ccc}\n\n\\beta & 0 & 1 \\\\\n\n2 & 1 & -2 \\\\\n\n3 & 1 & -2\n\n\\end{array}\\right)\n\\]\n\nIf $A^{7}-(\\beta-1) A^{6}-\\beta A^{5}$ is a singular matrix, then what is the value of $9 \\beta$?",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 7,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Consider the hyperbola\n\n\\[\n\\frac{x^{2}}{100}-\\frac{y^{2}}{64}=1\n\\]\n\nwith foci at $S$ and $S_{1}$, where $S$ lies on the positive $x$-axis. Let $P$ be a point on the hyperbola, in the first quadrant. Let $\\angle S P S_{1}=\\alpha$, with $\\alpha<\\frac{\\pi}{2}$. The straight line passing through the point $S$ and having the same slope as that of the tangent at $P$ to the hyperbola, intersects the straight line $S_{1} P$ at $P_{1}$. Let $\\delta$ be the distance of $P$ from the straight line $S P_{1}$, and $\\beta=S_{1} P$. Then what is the greatest integer less than or equal to $\\frac{\\beta \\delta}{9} \\sin \\frac{\\alpha}{2}$?",
+    "gold": "7"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 8,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Consider the functions $f, g: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by\n\n\\[\nf(x)=x^{2}+\\frac{5}{12} \\quad \\text { and } \\quad g(x)= \\begin{cases}2\\left(1-\\frac{4|x|}{3}\\right), & |x| \\leq \\frac{3}{4} \\\\ 0, & |x|>\\frac{3}{4}\\end{cases}\n\\]\n\nIf $\\alpha$ is the area of the region\n\n\\[\n\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}:|x| \\leq \\frac{3}{4}, 0 \\leq y \\leq \\min \\{f(x), g(x)\\}\\right\\}\n\\]\n\nthen what is the value of $9 \\alpha$?",
+    "gold": "6"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 8,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$, for $x \\in \\mathbb{R}$. Then what is the number of real solutions of the equation\n\n\n\n$\\sqrt{1+\\cos (2 x)}=\\sqrt{2} \\tan ^{-1}(\\tan x)$ in the set $\\left(-\\frac{3 \\pi}{2},-\\frac{\\pi}{2}\\right) \\cup\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right) \\cup\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$?",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 9,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $n \\geq 2$ be a natural number and $f:[0,1] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\n\n$$\n\nf(x)= \\begin{cases}n(1-2 n x) & \\text { if } 0 \\leq x \\leq \\frac{1}{2 n} \\\\ 2 n(2 n x-1) & \\text { if } \\frac{1}{2 n} \\leq x \\leq \\frac{3}{4 n} \\\\ 4 n(1-n x) & \\text { if } \\frac{3}{4 n} \\leq x \\leq \\frac{1}{n} \\\\ \\frac{n}{n-1}(n x-1) & \\text { if } \\frac{1}{n} \\leq x \\leq 1\\end{cases}\n\n$$\n\n\n\nIf $n$ is such that the area of the region bounded by the curves $x=0, x=1, y=0$ and $y=f(x)$ is 4 , then what is the maximum value of the function $f$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 10,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $7 \\overbrace{5 \\cdots 5}^{r} 7$ denote the $(r+2)$ digit number where the first and the last digits are 7 and the remaining $r$ digits are 5 . Consider the sum $S=77+757+7557+\\cdots+7 \\overbrace{5 \\cdots 5}^{98}7$. If $S=\\frac{7 \\overbrace{5 \\cdots 5}^{99}7+m}{n}$, where $m$ and $n$ are natural numbers less than 3000 , then what is the value of $m+n$?",
+    "gold": "1219"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 11,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $A=\\left\\{\\frac{1967+1686 i \\sin \\theta}{7-3 i \\cos \\theta}: \\theta \\in \\mathbb{R}\\right\\}$. If $A$ contains exactly one positive integer $n$, then what is the value of $n$?",
+    "gold": "281"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 12,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $P$ be the plane $\\sqrt{3} x+2 y+3 z=16$ and let $S=\\left\\{\\alpha \\hat{i}+\\beta \\hat{j}+\\gamma \\hat{k}: \\alpha^{2}+\\beta^{2}+\\gamma^{2}=1\\right.$ and the distance of $(\\alpha, \\beta, \\gamma)$ from the plane $P$ is $\\left.\\frac{7}{2}\\right\\}$. Let $\\vec{u}, \\vec{v}$ and $\\vec{w}$ be three distinct vectors in $S$ such that $|\\vec{u}-\\vec{v}|=|\\vec{v}-\\vec{w}|=|\\vec{w}-\\vec{u}|$. Let $V$ be the volume of the parallelepiped determined by vectors $\\vec{u}, \\vec{v}$ and $\\vec{w}$. Then what is the value of $\\frac{80}{\\sqrt{3}} V$?",
+    "gold": "45"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 1",
+    "index": 13,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $a$ and $b$ be two nonzero real numbers. If the coefficient of $x^{5}$ in the expansion of $\\left(a x^{2}+\\frac{70}{27 b x}\\right)^{4}$ is equal to the coefficient of $x^{-5}$ in the expansion of $\\left(a x-\\frac{1}{b x^{2}}\\right)^{7}$, then the value of $2 b$ is",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 8,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For $x \\in \\mathbb{R}$, let $\\tan ^{-1}(x) \\in\\left(-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right)$. Then what is the minimum value of the function $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ defined by $f(x)=\\int_{0}^{x \\tan ^{-1} x} \\frac{e^{(t-\\cos t)}}{1+t^{2023}} d t$?",
+    "gold": "0"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 9,
+    "subject": "math",
+    "type": "Integer",
+    "question": "For $x \\in \\mathbb{R}$, let $y(x)$ be a solution of the differential equation $\\left(x^{2}-5\\right) \\frac{d y}{d x}-2 x y=-2 x\\left(x^{2}-5\\right)^{2}$ such that $y(2)=7$.\n\n\n\nThen what is the maximum value of the function $y(x)$?",
+    "gold": "16"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 10,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $X$ be the set of all five digit numbers formed using 1,2,2,2,4,4,0. For example, 22240 is in $X$ while 02244 and 44422 are not in $X$. Suppose that each element of $X$ has an equal chance of being chosen. Let $p$ be the conditional probability that an element chosen at random is a multiple of 20 given that it is a multiple of 5 . Then what is the value of $38 p$ equal to?",
+    "gold": "31"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 11,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $A_{1}, A_{2}, A_{3}, \\ldots, A_{8}$ be the vertices of a regular octagon that lie on a circle of radius 2. Let $P$ be a point on the circle and let $P A_{i}$ denote the distance between the points $P$ and $A_{i}$ for $i=1,2, \\ldots, 8$. If $P$ varies over the circle, then what is the maximum value of the product $P A_{1} \\cdot P A_{2} \\cdots P A_{8}?",
+    "gold": "512"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 12,
+    "subject": "math",
+    "type": "Integer",
+    "question": "$R=\\left\\{\\left(\\begin{array}{lll}a & 3 & b \\\\ c & 2 & d \\\\ 0 & 5 & 0\\end{array}\\right): a, b, c, d \\in\\{0,3,5,7,11,13,17,19\\}\\right\\}$. Then what is the number of invertible matrices in $R$?",
+    "gold": "3780"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 13,
+    "subject": "math",
+    "type": "Integer",
+    "question": "Let $C_{1}$ be the circle of radius 1 with center at the origin. Let $C_{2}$ be the circle of radius $r$ with center at the point $A=(4,1)$, where $1<r<3$. Two distinct common tangents $P Q$ and $S T$ of $C_{1}$ and $C_{2}$ are drawn. The tangent $P Q$ touches $C_{1}$ at $P$ and $C_{2}$ at $Q$. The tangent $S T$ touches $C_{1}$ at $S$ and $C_{2}$ at $T$. Mid points of the line segments $P Q$ and $S T$ are joined to form a line which meets the $x$-axis at a point $B$. If $A B=\\sqrt{5}$, then what is the value of $r^{2}$?",
+    "gold": "2"
+  }
+]

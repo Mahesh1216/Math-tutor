@@ -1,0 +1,490 @@
+[
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the value of\n\n\\[\n\\left(\\left(\\log _{2} 9\\right)^{2}\\right)^{\\frac{1}{\\log _{2}\\left(\\log _{2} 9\\right)}} \\times(\\sqrt{7})^{\\frac{1}{\\log _{4} 7}}\n\\]?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the number of 5 digit numbers which are divisible by 4 , with digits from the set $\\{1,2,3,4,5\\}$ and the repetition of digits is allowed?",
+    "gold": "625"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $X$ be the set consisting of the first 2018 terms of the arithmetic progression $1,6,11, \\ldots$, and $Y$ be the set consisting of the first 2018 terms of the arithmetic progression $9,16,23, \\ldots$. Then, what is the number of elements in the set $X \\cup Y$?",
+    "gold": "3748"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 46,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the number of real solutions of the equation\n\n\\[\n\\sin ^{-1}\\left(\\sum_{i=1}^{\\infty} x^{i+1}-x \\sum_{i=1}^{\\infty}\\left(\\frac{x}{2}\\right)^{i}\\right)=\\frac{\\pi}{2}-\\cos ^{-1}\\left(\\sum_{i=1}^{\\infty}\\left(-\\frac{x}{2}\\right)^{i}-\\sum_{i=1}^{\\infty}(-x)^{i}\\right)\n\\]\n\nlying in the interval $\\left(-\\frac{1}{2}, \\frac{1}{2}\\right)$ is\n\n(Here, the inverse trigonometric functions $\\sin ^{-1} x$ and $\\cos ^{-1} x$ assume values in $\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]$ and $[0, \\pi]$, respectively.)",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 47,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "For each positive integer $n$, let\n\n\\[\ny_{n}=\\frac{1}{n}((n+1)(n+2) \\cdots(n+n))^{\\frac{1}{n}}\n\\]\n\nFor $x \\in \\mathbb{R}$, let $[x]$ be the greatest integer less than or equal to $x$. If $\\lim _{n \\rightarrow \\infty} y_{n}=L$, then what is the value of $[L]$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 48,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\vec{a}$ and $\\vec{b}$ be two unit vectors such that $\\vec{a} \\cdot \\vec{b}=0$. For some $x, y \\in \\mathbb{R}$, let $\\vec{c}=x \\vec{a}+y \\vec{b}+(\\vec{a} \\times \\vec{b})$. If $|\\vec{c}|=2$ and the vector $\\vec{c}$ is inclined the same angle $\\alpha$ to both $\\vec{a}$ and $\\vec{b}$, then what is the value of $8 \\cos ^{2} \\alpha$?",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $a, b, c$ be three non-zero real numbers such that the equation\n\n\\[\n\\sqrt{3} a \\cos x+2 b \\sin x=c, x \\in\\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right]\n\\]\n\nhas two distinct real roots $\\alpha$ and $\\beta$ with $\\alpha+\\beta=\\frac{\\pi}{3}$. Then, what is the value of $\\frac{b}{a}$?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 1",
+    "index": 50,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "A farmer $F_{1}$ has a land in the shape of a triangle with vertices at $P(0,0), Q(1,1)$ and $R(2,0)$. From this land, a neighbouring farmer $F_{2}$ takes away the region which lies between the side $P Q$ and a curve of the form $y=x^{n}(n>1)$. If the area of the region taken away by the farmer $F_{2}$ is exactly $30 \\%$ of the area of $\\triangle P Q R$, then what is the value of $n$?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 43,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the value of the integral\n\n\\[\n\\int_{0}^{\\frac{1}{2}} \\frac{1+\\sqrt{3}}{\\left((x+1)^{2}(1-x)^{6}\\right)^{\\frac{1}{4}}} d x\n\\]?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 44,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $P$ be a matrix of order $3 \\times 3$ such that all the entries in $P$ are from the set $\\{-1,0,1\\}$. Then, what is the maximum possible value of the determinant of $P$?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 45,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $X$ be a set with exactly 5 elements and $Y$ be a set with exactly 7 elements. If $\\alpha$ is the number of one-one functions from $X$ to $Y$ and $\\beta$ is the number of onto functions from $Y$ to $X$, then what is the value of $\\frac{1}{5 !}(\\beta-\\alpha)$?",
+    "gold": "119"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function with $f(0)=0$. If $y=f(x)$ satisfies the differential equation\n\n\\[\n\\frac{d y}{d x}=(2+5 y)(5 y-2)\n\\]\n\nthen what is the value of $\\lim _{x \\rightarrow-\\infty} f(x)$?",
+    "gold": "0.4"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function with $f(0)=1$ and satisfying the equation\n\n\\[\nf(x+y)=f(x) f^{\\prime}(y)+f^{\\prime}(x) f(y) \\text { for all } x, y \\in \\mathbb{R} .\n\\]\n\nThen, the value of $\\log _{e}(f(4))$ is",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 48,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $P$ be a point in the first octant, whose image $Q$ in the plane $x+y=3$ (that is, the line segment $P Q$ is perpendicular to the plane $x+y=3$ and the mid-point of $P Q$ lies in the plane $x+y=3$ ) lies on the $z$-axis. Let the distance of $P$ from the $x$-axis be 5 . If $R$ is the image of $P$ in the $x y$-plane, then what is the length of $P R$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider the cube in the first octant with sides $O P, O Q$ and $O R$ of length 1 , along the $x$-axis, $y$-axis and $z$-axis, respectively, where $O(0,0,0)$ is the origin. Let $S\\left(\\frac{1}{2}, \\frac{1}{2}, \\frac{1}{2}\\right)$ be the centre of the cube and $T$ be the vertex of the cube opposite to the origin $O$ such that $S$ lies on the diagonal $O T$. If $\\vec{p}=\\overrightarrow{S P}, \\vec{q}=\\overrightarrow{S Q}, \\vec{r}=\\overrightarrow{S R}$ and $\\vec{t}=\\overrightarrow{S T}$, then what is the value of $|(\\vec{p} \\times \\vec{q}) \\times(\\vec{r} \\times \\vec{t})|$?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2018 Paper 2",
+    "index": 50,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let\n\n\\[\nX=\\left({ }^{10} C_{1}\\right)^{2}+2\\left({ }^{10} C_{2}\\right)^{2}+3\\left({ }^{10} C_{3}\\right)^{2}+\\cdots+10\\left({ }^{10} C_{10}\\right)^{2}\n\\]\n\nwhere ${ }^{10} C_{r}, r \\in\\{1,2, \\cdots, 10\\}$ denote binomial coefficients. Then, what is the value of $\\frac{1}{1430} X$?",
+    "gold": "646"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\omega \\neq 1$ be a cube root of unity. Then what is the minimum of the set\n\n\\[\n\\left\\{\\left|a+b \\omega+c \\omega^{2}\\right|^{2}: a, b, c \\text { distinct non-zero integers }\\right\\}\n\\] equal?",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 50,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $A P(a ; d)$ denote the set of all the terms of an infinite arithmetic progression with first term $a$ and common difference $d>0$. If\n\n\\[\nA P(1 ; 3) \\cap A P(2 ; 5) \\cap A P(3 ; 7)=A P(a ; d)\n\\]\n\nthen what does $a+d$ equal?",
+    "gold": "157"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 51,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $S$ be the sample space of all $3 \\times 3$ matrices with entries from the set $\\{0,1\\}$. Let the events $E_{1}$ and $E_{2}$ be given by\n\n\\[\n\\begin{aligned}\n\n& E_{1}=\\{A \\in S: \\operatorname{det} A=0\\} \\text { and } \\\\\n\n& E_{2}=\\{A \\in S: \\text { sum of entries of } A \\text { is } 7\\} .\n\n\\end{aligned}\n\\]\n\nIf a matrix is chosen at random from $S$, then what is the conditional probability $P\\left(E_{1} \\mid E_{2}\\right)$?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 52,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let the point $B$ be the reflection of the point $A(2,3)$ with respect to the line $8 x-6 y-23=0$. Let $\\Gamma_{A}$ and $\\Gamma_{B}$ be circles of radii 2 and 1 with centres $A$ and $B$ respectively. Let $T$ be a common tangent to the circles $\\Gamma_{A}$ and $\\Gamma_{B}$ such that both the circles are on the same side of $T$. If $C$ is the point of intersection of $T$ and the line passing through $A$ and $B$, then what is the length of the line segment $A C$?",
+    "gold": "10"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 53,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "If\n\n\\[\nI=\\frac{2}{\\pi} \\int_{-\\pi / 4}^{\\pi / 4} \\frac{d x}{\\left(1+e^{\\sin x}\\right)(2-\\cos 2 x)}\n\\]\n\nthen what does $27 I^{2}$ equal?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 1",
+    "index": 54,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Three lines are given by\n\n\\[\n\\vec{r} & =\\lambda \\hat{i}, \\lambda \\in \\mathbb{R}\n\\]\n\\[\\vec{r} & =\\mu(\\hat{i}+\\hat{j}), \\mu \\in \\mathbb{R}\n\\]\n \\[\n\\vec{r} =v(\\hat{i}+\\hat{j}+\\hat{k}), v \\in \\mathbb{R}.\n\\]\n\nLet the lines cut the plane $x+y+z=1$ at the points $A, B$ and $C$ respectively. If the area of the triangle $A B C$ is $\\triangle$ then what is the value of $(6 \\Delta)^{2}$?",
+    "gold": "0.75"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 45,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Suppose\n\n\\[\n\\operatorname{det}\\left[\\begin{array}{cc}\n\n\\sum_{k=0}^{n} k & \\sum_{k=0}^{n}{ }^{n} C_{k} k^{2} \\\\\n\n\\sum_{k=0}^{n}{ }^{n} C_{k} k & \\sum_{k=0}^{n}{ }^{n} C_{k} 3^{k}\n\n\\end{array}\\right]=0\n\\]\n\nholds for some positive integer $n$. Then what does $\\sum_{k=0}^{n} \\frac{{ }^{n} C_{k}}{k+1}$?",
+    "gold": "6.2"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Five persons $A, B, C, D$ and $E$ are seated in a circular arrangement. If each of them is given a hat of one of the three colours red, blue and green, then what is the number of ways of distributing the hats such that the persons seated in adjacent seats get different coloured hats?",
+    "gold": "30"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $|X|$ denote the number of elements in a set $X$. Let $S=\\{1,2,3,4,5,6\\}$ be a sample space, where each element is equally likely to occur. If $A$ and $B$ are independent events associated with $S$, then what is the number of ordered pairs $(A, B)$ such that $1 \\leq|B|<|A|$?",
+    "gold": "422"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 48,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the value of\n\n\\[\n\\sec ^{-1}\\left(\\frac{1}{4} \\sum_{k=0}^{10} \\sec \\left(\\frac{7 \\pi}{12}+\\frac{k \\pi}{2}\\right) \\sec \\left(\\frac{7 \\pi}{12}+\\frac{(k+1) \\pi}{2}\\right)\\right)\n\\]\n\nin the interval $\\left[-\\frac{\\pi}{4}, \\frac{3 \\pi}{4}\\right]$?",
+    "gold": "0"
+  },
+  {
+    "description": "JEE Adv 2019 Paper 2",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the value of the integral\n\n\n\\[\n\\int_{0}^{\\pi / 2} \\frac{3 \\sqrt{\\cos \\theta}}{(\\sqrt{\\cos \\theta}+\\sqrt{\\sin \\theta})^{5}} d \\theta\n\\]?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $m$ be the minimum possible value of $\\log _{3}\\left(3^{y_{1}}+3^{y_{2}}+3^{y_{3}}\\right)$, where $y_{1}, y_{2}, y_{3}$ are real numbers for which $y_{1}+y_{2}+y_{3}=9$. Let $M$ be the maximum possible value of $\\left(\\log _{3} x_{1}+\\log _{3} x_{2}+\\log _{3} x_{3}\\right)$, where $x_{1}, x_{2}, x_{3}$ are positive real numbers for which $x_{1}+x_{2}+x_{3}=9$. Then what is the value of $\\log _{2}\\left(m^{3}\\right)+\\log _{3}\\left(M^{2}\\right)$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 50,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $a_{1}, a_{2}, a_{3}, \\ldots$ be a sequence of positive integers in arithmetic progression with common difference 2. Also, let $b_{1}, b_{2}, b_{3}, \\ldots$ be a sequence of positive integers in geometric progression with common ratio 2. If $a_{1}=b_{1}=c$, then what is the number of all possible values of $c$, for which the equality\n\n\\[\n2\\left(a_{1}+a_{2}+\\cdots+a_{n}\\right)=b_{1}+b_{2}+\\cdots+b_{n}\n\\]\n\nholds for some positive integer $n$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 51,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f:[0,2] \\rightarrow \\mathbb{R}$ be the function defined by\n\n\\[\nf(x)=(3-\\sin (2 \\pi x)) \\sin \\left(\\pi x-\\frac{\\pi}{4}\\right)-\\sin \\left(3 \\pi x+\\frac{\\pi}{4}\\right)\n\\]\n\nIf $\\alpha, \\beta \\in[0,2]$ are such that $\\{x \\in[0,2]: f(x) \\geq 0\\}=[\\alpha, \\beta]$, then what is the value of $\\beta-\\alpha$?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 52,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "In a triangle $P Q R$, let $\\vec{a}=\\overrightarrow{Q R}, \\vec{b}=\\overrightarrow{R P}$ and $\\vec{c}=\\overrightarrow{P Q}$. If\n\n\\[\n|\\vec{a}|=3, \\quad|\\vec{b}|=4 \\quad \\text { and } \\quad \\frac{\\vec{a} \\cdot(\\vec{c}-\\vec{b})}{\\vec{c} \\cdot(\\vec{a}-\\vec{b})}=\\frac{|\\vec{a}|}{|\\vec{a}|+|\\vec{b}|},\n\\]\n\nthen what is the value of $|\\vec{a} \\times \\vec{b}|^{2}$?",
+    "gold": "108"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 53,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "For a polynomial $g(x)$ with real coefficients, let $m_{g}$ denote the number of distinct real roots of $g(x)$. Suppose $S$ is the set of polynomials with real coefficients defined by\n\n\\[\nS=\\left\\{\\left(x^{2}-1\\right)^{2}\\left(a_{0}+a_{1} x+a_{2} x^{2}+a_{3} x^{3}\\right): a_{0}, a_{1}, a_{2}, a_{3} \\in \\mathbb{R}\\right\\}\n\\]\n\nFor a polynomial $f$, let $f^{\\prime}$ and $f^{\\prime \\prime}$ denote its first and second order derivatives, respectively. Then what is the minimum possible value of $\\left(m_{f^{\\prime}}+m_{f^{\\prime \\prime}}\\right)$, where $f \\in S$?",
+    "gold": "3"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 1",
+    "index": 54,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $e$ denote the base of the natural logarithm. What is the value of the real number $a$ for which the right hand limit\n\n\\[\n\\lim _{x \\rightarrow 0^{+}} \\frac{(1-x)^{\\frac{1}{x}}-e^{-1}}{x^{a}}\n\\]\n\nis equal to a nonzero real number?",
+    "gold": "1"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 49,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "An engineer is required to visit a factory for exactly four days during the first 15 days of every month and it is mandatory that no two visits take place on consecutive days. Then what is the number of all possible ways in which such visits to the factory can be made by the engineer during 1-15 June 2021?",
+    "gold": "495"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 50,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "In a hotel, four rooms are available. Six persons are to be accommodated in these four rooms in such a way that each of these rooms contains at least one person and at most two persons. Then what is the number of all possible ways in which this can be done?",
+    "gold": "1080"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 51,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Two fair dice, each with faces numbered 1,2,3,4,5 and 6, are rolled together and the sum of the numbers on the faces is observed. This process is repeated till the sum is either a prime number or a perfect square. Suppose the sum turns out to be a perfect square before it turns out to be a prime number. If $p$ is the probability that this perfect square is an odd number, then what is the value of $14 p$?",
+    "gold": "8"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 52,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let the function $f:[0,1] \\rightarrow \\mathbb{R}$ be defined by\n\n\\[\nf(x)=\\frac{4^{x}}{4^{x}+2}\n\\]\n\nThen what is the value of\n\\[\nf\\left(\\frac{1}{40}\\right)+f\\left(\\frac{2}{40}\\right)+f\\left(\\frac{3}{40}\\right)+\\cdots+f\\left(\\frac{39}{40}\\right)-f\\left(\\frac{1}{2}\\right)\n\\]?",
+    "gold": "19"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 53,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ be a differentiable function such that its derivative $f^{\\prime}$ is continuous and $f(\\pi)=-6$. If $F:[0, \\pi] \\rightarrow \\mathbb{R}$ is defined by $F(x)=\\int_{0}^{x} f(t) d t$, and if\n\n\\[\n\\int_{0}^{\\pi}\\left(f^{\\prime}(x)+F(x)\\right) \\cos x d x=2,\n\\]\n\nthen what is the value of $f(0)$?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2020 Paper 2",
+    "index": 54,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let the function $f:(0, \\pi) \\rightarrow \\mathbb{R}$ be defined by\n\n\\[\nf(\\theta)=(\\sin \\theta+\\cos \\theta)^{2}+(\\sin \\theta-\\cos \\theta)^{4} .\n\\]\n\nSuppose the function $f$ has a local minimum at $\\theta$ precisely when $\\theta \\in\\left\\{\\lambda_{1} \\pi, \\ldots, \\lambda_{r} \\pi\\right\\}$, where $0<$ $\\lambda_{1}<\\cdots<\\lambda_{r}<1$. Then what is the value of $\\lambda_{1}+\\cdots+\\lambda_{r}$?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 41,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Three numbers are chosen at random, one after another with replacement, from the set $S=\\{1,2,3, \\ldots, 100\\}$. Let $p_1$ be the probability that the maximum of chosen numbers is at least 81 and $p_2$ be the probability that the minimum of chosen numbers is at most 40 . What is the value of $\\frac{625}{4} p_{1}$?",
+    "gold": "76.25"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 42,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Three numbers are chosen at random, one after another with replacement, from the set $S=\\{1,2,3, \\ldots, 100\\}$. Let $p_1$ be the probability that the maximum of chosen numbers is at least 81 and $p_2$ be the probability that the minimum of chosen numbers is at most 40 . What is the value of $\\frac{125}{4} p_{2}$?",
+    "gold": "24.5"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 43,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\alpha, \\beta$ and $\\gamma$ be real numbers such that the system of linear equations\n\\[\\begin{gathered}\nx+2 y+3 z=\\alpha \\\\\n4 x+5 y+6 z=\\beta \\\\\n7 x+8 y+9 z=\\gamma-1\n\\end{gathered}\\]\nis consistent. Let $|M|$ represent the determinant of the matrix\n\\[M=\\left[\\begin{array}{ccc}\n\\alpha & 2 & \\gamma \\\\\n\\beta & 1 & 0 \\\\\n-1 & 0 & 1\n\\end{array}\\right]\\]\nLet $P$ be the plane containing all those $(\\alpha, \\beta, \\gamma)$ for which the above system of linear equations is consistent, and $D$ be the square of the distance of the point $(0,1,0)$ from the plane $P$. What is the value of $|\\mathrm{M}|$?",
+    "gold": "1.00"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 44,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\alpha, \\beta$ and $\\gamma$ be real numbers such that the system of linear equations\n\\[\\begin{gathered}\nx+2 y+3 z=\\alpha \\\\\n4 x+5 y+6 z=\\beta \\\\\n7 x+8 y+9 z=\\gamma-1\n\\end{gathered}\\]\nis consistent. Let $|M|$ represent the determinant of the matrix\n\\[M=\\left[\\begin{array}{ccc}\n\\alpha & 2 & \\gamma \\\\\n\\beta & 1 & 0 \\\\\n-1 & 0 & 1\n\\end{array}\\right]\\]\nLet $P$ be the plane containing all those $(\\alpha, \\beta, \\gamma)$ for which the above system of linear equations is consistent, and $D$ be the square of the distance of the point $(0,1,0)$ from the plane $P$. What is the value of $D$?",
+    "gold": "1.5"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 45,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider the lines $\\mathrm{L}_1$ and $\\mathrm{L}_2$ defined by\n$\\mathrm{L}_1: \\mathrm{x} \\sqrt{2}+\\mathrm{y}-1=0$ and $\\mathrm{L}_2: \\mathrm{x} \\sqrt{2}-\\mathrm{y}+1=0$\nFor a fixed constant $\\lambda$, let $\\mathrm{C}$ be the locus of a point $\\mathrm{P}$ such that the product of the distance of $\\mathrm{P}$ from $\\mathrm{L}_1$ and the distance of $\\mathrm{P}$ from $\\mathrm{L}_2$ is $\\lambda^2$. The line $\\mathrm{y}=2 \\mathrm{x}+1$ meets $\\mathrm{C}$ at two points $\\mathrm{R}$ and $\\mathrm{S}$, where the distance between $\\mathrm{R}$ and $\\mathrm{S}$ is $\\sqrt{270}$.\n\nLet the perpendicular bisector of RS meet $\\mathrm{C}$ at two distinct points $\\mathrm{R}^{\\prime}$ and $\\mathrm{S}^{\\prime}$. Let $\\mathrm{D}$ be the square of the distance between $\\mathrm{R}^{\\prime}$ and S'. What is the value of $\\lambda^{2}$?",
+    "gold": "9.00"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 1",
+    "index": 46,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider the lines $\\mathrm{L}_1$ and $\\mathrm{L}_2$ defined by\n$\\mathrm{L}_1: \\mathrm{x} \\sqrt{2}+\\mathrm{y}-1=0$ and $\\mathrm{L}_2: \\mathrm{x} \\sqrt{2}-\\mathrm{y}+1=0$\nFor a fixed constant $\\lambda$, let $\\mathrm{C}$ be the locus of a point $\\mathrm{P}$ such that the product of the distance of $\\mathrm{P}$ from $\\mathrm{L}_1$ and the distance of $\\mathrm{P}$ from $\\mathrm{L}_2$ is $\\lambda^2$. The line $\\mathrm{y}=2 \\mathrm{x}+1$ meets $\\mathrm{C}$ at two points $\\mathrm{R}$ and $\\mathrm{S}$, where the distance between $\\mathrm{R}$ and $\\mathrm{S}$ is $\\sqrt{270}$.\n\nLet the perpendicular bisector of RS meet $\\mathrm{C}$ at two distinct points $\\mathrm{R}^{\\prime}$ and $\\mathrm{S}^{\\prime}$. Let $\\mathrm{D}$ be the square of the distance between $\\mathrm{R}^{\\prime}$ and S'. What is the value of $D$?",
+    "gold": "77.14"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 43,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider the region $R=\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: x \\geq 0\\right.$ and $\\left.y^2 \\leq 4-x\\right\\}$. Let $\\mathcal{F}$ be the family of all circles that are contained in $R$ and have centers on the $x$-axis. Let $C$ be the circle that has largest radius among the circles in $\\mathcal{F}$. Let $(\\alpha, \\beta)$ be a point where the circle $C$ meets the curve $y^2=4-x$. What is the radius of the circle $C$?",
+    "gold": "1.5"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 44,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider the region $R=\\left\\{(x, y) \\in \\mathbb{R} \\times \\mathbb{R}: x \\geq 0\\right.$ and $\\left.y^2 \\leq 4-x\\right\\}$. Let $\\mathcal{F}$ be the family of all circles that are contained in $R$ and have centers on the $x$-axis. Let $C$ be the circle that has largest radius among the circles in $\\mathcal{F}$. Let $(\\alpha, \\beta)$ be a point where the circle $C$ meets the curve $y^2=4-x$. What is the value of $\\alpha$?",
+    "gold": "2.00"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 45,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f_1:(0, \\infty) \\rightarrow \\mathbb{R}$ and $f_2:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n\\[f_1(x)=\\int_0^x \\prod_{j=1}^{21}(t-j)^j d t, x>0\\]\nand\n\\[f_2(x)=98(x-1)^{50}-600(x-1)^{49}+2450, x>0\\]\nwhere, for any positive integer $\\mathrm{n}$ and real numbers $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}, \\prod_{i=1}^{\\mathrm{n}} \\mathrm{a}_i$ denotes the product of $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}$. Let $\\mathrm{m}_i$ and $\\mathrm{n}_i$, respectively, denote the number of points of local minima and the number of points of local maxima of function $f_i, i=1,2$, in the interval $(0, \\infty)$. What is the value of $2 m_{1}+3 n_{1}+m_{1} n_{1}$?",
+    "gold": "57"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 46,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $f_1:(0, \\infty) \\rightarrow \\mathbb{R}$ and $f_2:(0, \\infty) \\rightarrow \\mathbb{R}$ be defined by\n\\[f_1(x)=\\int_0^x \\prod_{j=1}^{21}(t-j)^j d t, x>0\\]\nand\n\\[f_2(x)=98(x-1)^{50}-600(x-1)^{49}+2450, x>0\\]\nwhere, for any positive integer $\\mathrm{n}$ and real numbers $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}, \\prod_{i=1}^{\\mathrm{n}} \\mathrm{a}_i$ denotes the product of $\\mathrm{a}_1, \\mathrm{a}_2, \\ldots, \\mathrm{a}_{\\mathrm{n}}$. Let $\\mathrm{m}_i$ and $\\mathrm{n}_i$, respectively, denote the number of points of local minima and the number of points of local maxima of function $f_i, i=1,2$, in the interval $(0, \\infty)$. What is the value of $6 m_{2}+4 n_{2}+8 m_{2} n_{2}$?",
+    "gold": "6"
+  },
+  {
+    "description": "JEE Adv 2021 Paper 2",
+    "index": 47,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\mathrm{g}_i:\\left[\\frac{\\pi}{8}, \\frac{3 \\pi}{8}\\right] \\rightarrow \\mathbb{R}, \\mathrm{i}=1,2$, and $f:\\left[\\frac{\\pi}{8}, \\frac{3 \\pi}{8}\\right] \\rightarrow \\mathbb{R}$ be functions such that $\\mathrm{g}_1(\\mathrm{x})=1, \\mathrm{~g}_2(\\mathrm{x})=|4 \\mathrm{x}-\\pi|$ and $f(\\mathrm{x})=\\sin ^2 \\mathrm{x}$, for all $\\mathrm{x} \\in\\left[\\frac{\\pi}{8}, \\frac{3 \\pi}{8}\\right]$\nDefine $\\mathrm{S}_i=\\int_{\\frac{\\pi}{8}}^{\\frac{3 \\pi}{8}} f(\\mathrm{x}) \\cdot \\mathrm{g}_i(\\mathrm{x}) \\mathrm{dx}, i=1,2$. What is the value of $\\frac{16 S_{1}}{\\pi}$?",
+    "gold": "2"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 1,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Considering only the principal values of the inverse trigonometric functions, what is the value of\n\n\\[\n\\frac{3}{2} \\cos ^{-1} \\sqrt{\\frac{2}{2+\\pi^{2}}}+\\frac{1}{4} \\sin ^{-1} \\frac{2 \\sqrt{2} \\pi}{2+\\pi^{2}}+\\tan ^{-1} \\frac{\\sqrt{2}}{\\pi}\n\\]?",
+    "gold": "2.35"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 2,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\alpha$ be a positive real number. Let $f: \\mathbb{R} \\rightarrow \\mathbb{R}$ and $g:(\\alpha, \\infty) \\rightarrow \\mathbb{R}$ be the functions defined by\n\n\\[\nf(x)=\\sin \\left(\\frac{\\pi x}{12}\\right) \\quad \\text { and } \\quad g(x)=\\frac{2 \\log _{\\mathrm{e}}(\\sqrt{x}-\\sqrt{\\alpha})}{\\log _{\\mathrm{e}}\\left(e^{\\sqrt{x}}-e^{\\sqrt{\\alpha}}\\right)}\n\\]\n\nThen what is the value of $\\lim _{x \\rightarrow \\alpha^{+}} f(g(x))$?",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 3,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "In a study about a pandemic, data of 900 persons was collected. It was found that\n\n190 persons had symptom of fever,\n\n220 persons had symptom of cough,\n\n220 persons had symptom of breathing problem,\n\n330 persons had symptom of fever or cough or both,\n\n350 persons had symptom of cough or breathing problem or both,\n\n340 persons had symptom of fever or breathing problem or both,\n\n30 persons had all three symptoms (fever, cough and breathing problem).\n\nIf a person is chosen randomly from these 900 persons, then what the probability that the person has at most one symptom?",
+    "gold": "0.8"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 4,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $z$ be a complex number with non-zero imaginary part. If\n\n\\[\n\\frac{2+3 z+4 z^{2}}{2-3 z+4 z^{2}}\n\\]\n\nis a real number, then the value of $|z|^{2}$ is",
+    "gold": "0.5"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 5,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $\\bar{z}$ denote the complex conjugate of a complex number $z$ and let $i=\\sqrt{-1}$. In the set of complex numbers,what is the number of distinct roots of the equation\n\n\\[\n\\bar{z}-z^{2}=i\\left(\\bar{z}+z^{2}\\right)\n\\]?",
+    "gold": "4"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 6,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $l_{1}, l_{2}, \\ldots, l_{100}$ be consecutive terms of an arithmetic progression with common difference $d_{1}$, and let $w_{1}, w_{2}, \\ldots, w_{100}$ be consecutive terms of another arithmetic progression with common difference $d_{2}$, where $d_{1} d_{2}=10$. For each $i=1,2, \\ldots, 100$, let $R_{i}$ be a rectangle with length $l_{i}$, width $w_{i}$ and area $A_{i}$. If $A_{51}-A_{50}=1000$, then what is the value of $A_{100}-A_{90}$?",
+    "gold": "18900"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 7,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the number of 4-digit integers in the closed interval [2022, 4482] formed by using the digits $0,2,3,4,6,7$?",
+    "gold": "569"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 1",
+    "index": 8,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Let $A B C$ be the triangle with $A B=1, A C=3$ and $\\angle B A C=\\frac{\\pi}{2}$. If a circle of radius $r>0$ touches the sides $A B, A C$ and also touches internally the circumcircle of the triangle $A B C$, then what is the value of $r$?",
+    "gold": "0.83"
+  },
+  {
+    "description": "JEE Adv 2022 Paper 2",
+    "index": 3,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "What is the greatest integer less than or equal to\n\n\\[\n\\int_{1}^{2} \\log _{2}\\left(x^{3}+1\\right) d x+\\int_{1}^{\\log _{2} 9}\\left(2^{x}-1\\right)^{\\frac{1}{3}} d x\n\\]?",
+    "gold": "5"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 14,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider an obtuse angled triangle $A B C$ in which the difference between the largest and the smallest angle is $\\frac{\\pi}{2}$ and whose sides are in arithmetic progression. Suppose that the vertices of this triangle lie on a circle of radius 1. Let $a$ be the area of the triangle $A B C$. Then what is  the value of $(64 a)^{2}$?",
+    "gold": "1008"
+  },
+  {
+    "description": "JEE Adv 2023 Paper 2",
+    "index": 15,
+    "subject": "math",
+    "type": "Numeric",
+    "question": "Consider an obtuse angled triangle $A B C$ in which the difference between the largest and the smallest angle is $\\frac{\\pi}{2}$ and whose sides are in arithmetic progression. Suppose that the vertices of this triangle lie on a circle of radius 1. Then what is the inradius of the triangle ABC?",
+    "gold": "0.25"
+  }
+]
