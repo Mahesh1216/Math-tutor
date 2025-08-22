@@ -1,0 +1,4 @@
+models:
+- type: main
+  engine: google/gemini-2.0-flash
+  model: gemini-2.0-flash

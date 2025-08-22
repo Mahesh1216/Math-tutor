@@ -12,6 +12,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers.openai_functions import JsonOutputFunctionsParser
 from langchain_tavily import TavilySearch
+from nemoguardrails.rails import LLMRails, RailsConfig
 
 from langgraph.graph import StateGraph, END
 from fastapi.middleware.cors import CORSMiddleware
@@ -37,6 +38,12 @@ app.add_middleware(
     allow_headers=["*"], # Allows all headers
 )
 
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
+
+# --- Guardrails Setup ---
+config = RailsConfig.from_path("guardrails")
+rails = LLMRails(config=config, llm=llm)
+
 # --- Knowledge Base Setup ---
 dataset = load_dataset("gsm8k", "main", split="train[:100]")
 questions = [item["question"] for item in dataset]
@@ -53,34 +60,29 @@ retriever = qdrant_instance.as_retriever(search_kwargs={"k": 3})
 # --- Agentic Workflow ---
 class AgentState(TypedDict):
     question: str
-    documents: List[str]
+    documents: List[dict]
     generation: str
     source: str
     grade: str # Added for clarity in state transitions
 
 web_search_tool = TavilySearch(k=3)
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 def retrieve_from_kb(state):
     question = state["question"]
-    documents = retriever.invoke(question)
-    return {"documents": [doc.page_content for doc in documents], "source": "KB", "question": question}
+    docs = retriever.invoke(question)
+    documents = [{"source": "KB", "content": doc.page_content} for doc in docs]
+    return {"documents": documents, "source": "KB", "question": question}
 
 def web_search(state):
     question = state["question"]
     search_results = web_search_tool.invoke({"query": question})
-
-    # The TavilySearch tool returns a list of strings. We need to handle this.
+    
     mcp_formatted_docs = []
     if isinstance(search_results, list):
         for res in search_results:
-            # Each 'res' is a string, not a dict. We can't get 'url' or 'content' directly.
-            # For now, we will just use the string as the content.
-            mcp_formatted_docs.append(f"Source: Web Search\nContent: {res}")
+            mcp_formatted_docs.append({"source": "Web Search", "content": res})
     elif isinstance(search_results, str):
-        mcp_formatted_docs.append(f"Source: Web Search\nContent: {search_results}")
-    else:
-        mcp_formatted_docs.append("Search failed or returned unexpected format.")
+        mcp_formatted_docs.append({"source": "Web Search", "content": search_results})
 
     return {"documents": mcp_formatted_docs, "source": "Web", "question": question}
 
@@ -95,7 +97,7 @@ def grade_documents(state):
     if not documents:
         grade = "no"
     else:
-        doc_to_grade = documents[0]
+        doc_to_grade = documents[0]['content']
         chain = prompt | llm
         result = chain.invoke({"question": question, "document": doc_to_grade})
         grade = result.content.strip().lower()
@@ -107,6 +109,11 @@ def generate_solution(state):
     question = state["question"]
     documents = state["documents"]
     source = state["source"]
+    
+    context = ""
+    for doc in documents:
+        context += f"Source: {doc['source']}\nContent: {doc['content']}\n\n"
+
     prompt = ChatPromptTemplate.from_template(
         """You are a helpful math professor. Your goal is to provide a clear, step-by-step solution to the user's question.
         Use the following context from your knowledge source ({source}) to answer the question. If the context is empty or not useful, use your own knowledge but state that you are doing so.
@@ -117,7 +124,7 @@ def generate_solution(state):
         Provide your final answer as a step-by-step solution."""
     )
     chain = prompt | llm
-    generation = chain.invoke({"context": "\n\n".join(documents), "question": question, "source": source})
+    generation = chain.invoke({"context": context, "question": question, "source": source})
     return {"generation": generation.content, "question": question, "documents": documents, "source": source}
 
 def handle_no_solution(state):
@@ -180,8 +187,14 @@ class Feedback(BaseModel):
 @app.post("/ask")
 async def ask_agent(query: Query):
     inputs = {"question": query.question}
-    result = app_runnable.invoke(inputs)
-    return {"answer": result['generation']}
+    bot_message = await rails.generate_async(prompt=query.question)
+    if bot_message:
+        # A rail was triggered, so return the result from the rail
+        return {"answer": bot_message}
+    else:
+        # No rail was triggered, so run the main app
+        app_result = app_runnable.invoke(inputs)
+        return {"answer": app_result['generation']}
 
 @app.post("/refine")
 async def refine_answer(feedback: Feedback):

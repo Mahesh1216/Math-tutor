@@ -1,0 +1,7 @@
+define user ask math question
+  "What is the integral of x^2?"
+  "Solve the equation 3x + 5 = 14"
+
+define flow off_topic
+  user ask off-topic question
+  bot inform off-topic

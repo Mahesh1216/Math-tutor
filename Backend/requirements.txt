@@ -9,9 +9,10 @@ pydantic
 python-dotenv
 datasets
 qdrant-client
-langchain
-langchain-google-genai
-langchain-community
-langgraph
-langchain-tavily
+langchain==0.1.16
+langchain-google-genai==0.0.6
+langchain-community==0.0.32
+langgraph==0.0.37
+langchain-tavily==0.0.3
+nemoguardrails==0.8.0
 
