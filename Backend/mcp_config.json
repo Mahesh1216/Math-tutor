@@ -1,0 +1,21 @@
+{
+    "servers": {
+      "web-search": {
+        "command": "python",
+        "args": ["mcp_server.py"],
+        "env": {
+          "TAVILY_API_KEY": "${TAVILY_API_KEY}"
+        }
+      }
+    },
+    "client": {
+      "name": "math-tutor-agent",
+      "version": "1.0.0",
+      "timeout": 30,
+      "retry_attempts": 3
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "mcp.log"
+    }
+  }
