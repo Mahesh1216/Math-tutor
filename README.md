@@ -6,7 +6,7 @@ A full-stack **Math Tutor** that:
 - answers with **clear step-by-step** explanations, and
 - **learns** from user feedback to improve future answers.
 
-> Stack: **FastAPI** (Backend) + **React** (Frontend) + **Qdrant** (Vector DB). MCP tools (search/web) optional.
+> Stack: **FastAPI** (Backend) + **React** (Frontend) + **Qdrant** (Vector DB). MCP tools (search/web) .
 
 ---
 
@@ -103,55 +103,17 @@ curl http://localhost:8000/health
 Open a second terminal:
 ```bash
 cd Frontend
-npm install
-# If CRA:
-npm start
-# If Vite:
 npm run dev
 ```
-
-If the frontend needs an API base URL, create `Frontend/.env`:
-```
-# Vite
-VITE_API_BASE_URL=http://localhost:8000
-# or CRA
-REACT_APP_API_BASE_URL=http://localhost:8000
-```
-
 ---
 
 ## Environment Variables
 
 Create `Backend/.env`:
 ```
-# LLM / Embeddings
-OPENAI_API_KEY=YOUR_KEY
-EMBEDDING_MODEL=text-embedding-3-small
-
-# Vector DB
-QDRANT_URL=http://localhost:6333
-QDRANT_COLLECTION=math_kb
-
-# Routing & Guardrails
-RETRIEVAL_TOP_K=5
-RETRIEVAL_THRESHOLD=0.78
-ALLOW_WEB_SEARCH=true
-
-# MCP (optional)
-MCP_CONFIG=./mcp.config.json
-MCP_TIMEOUT_SECS=20
-
-# App DB (history/feedback; swap to Postgres if desired)
-DB_URL=sqlite:///./data/app.sqlite3
+GOOGLE_API_KEY=
+TAVILY_API_KEY=
 ```
-
-(Optional) `Frontend/.env`:
-```
-VITE_API_BASE_URL=http://localhost:8000
-# or
-REACT_APP_API_BASE_URL=http://localhost:8000
-```
-
 ---
 
 ## Knowledge Base Ingestion
