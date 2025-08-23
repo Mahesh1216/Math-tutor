@@ -1,0 +1,112 @@
+[
+  {
+    "question_id": "jee_001",
+    "question": "Find the derivative of f(x) = 3x^4 + 2x^3 - x^2 + 5x - 1",
+    "expected_answer": "12x^3 + 6x^2 - 2x + 5",
+    "agent_answer": "The derivative of f(x) = 3x^4 + 2x^3 - x^2 + 5x - 1 is f'(x) = 12x^3 + 6x^2 - 2x + 5. I used the power rule, which states that the derivative of x^n is nx^(n-1), for each term in the polynomial. For example, the derivative of 3x^4 is 3 * 4x^(4-1) = 12x^3. The derivative of a constant, like -1, is 0.",
+    "source": "guardrails",
+    "response_time": 4.193783760070801,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_002",
+    "question": "Solve the equation: 2x^2 - 8x + 6 = 0",
+    "expected_answer": "x = 1, x = 3",
+    "agent_answer": "Okay, I can help you with that! Here's how to solve the quadratic equation 2x^2 - 8x + 6 = 0:\n**1. Simplify the equation (optional but helpful):**\nNotice that all the coefficients are divisible by 2. Dividing the entire equation by 2 simplifies it:\nx^2 - 4x + 3 = 0\n**2. Factor the quadratic expression:**\nWe need to find two numbers that multiply to 3 and add up to -4. Those numbers are -1 and -3.  Therefore, we can factor the equation as:\n(x - 1)(x - 3) = 0\n**3. Set each factor equal to zero and solve for x:**\n*   x - 1 = 0  =>  x = 1\n*   x - 3 = 0  =>  x = 3\n**Solution:**\nThe solutions to the equation 2x^2 - 8x + 6 = 0 are x = 1 and x = 3.  You can verify this by plugging these values back into the original equation.\nFor example, if x = 1:\n2(1)^2 - 8(1) + 6 = 2 - 8 + 6 = 0\nAnd if x = 3:\n2(3)^2 - 8(3) + 6 = 18 - 24 + 6 = 0\nTherefore, both solutions are correct. Do you have any other equations you'd like me to solve?",
+    "source": "guardrails",
+    "response_time": 5.134443283081055,
+    "is_correct": false,
+    "similarity_score": 0.058823529411764705,
+    "error": null
+  },
+  {
+    "question_id": "jee_003",
+    "question": "Find the integral of \u222b(3x^2 + 4x - 2)dx",
+    "expected_answer": "x^3 + 2x^2 - 2x + C",
+    "agent_answer": "Okay, I can help you with that. The integral of \u222b(3x^2 + 4x - 2)dx is x^3 + 2x^2 - 2x + C, where C is the constant of integration.",
+    "source": "guardrails",
+    "response_time": 4.528848886489868,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_004",
+    "question": "Calculate the determinant of the 2x2 matrix [[3, 4], [1, 2]]",
+    "expected_answer": "2",
+    "agent_answer": "To calculate the determinant of a 2x2 matrix, you multiply the elements on the main diagonal and subtract the product of the elements on the off-diagonal. In this case, the matrix is [[3, 4], [1, 2]]. The determinant is (3 * 2) - (4 * 1) = 6 - 4 = 2.",
+    "source": "guardrails",
+    "response_time": 3.83121395111084,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_005",
+    "question": "Find the value of sin(\u03c0/6) + cos(\u03c0/3)",
+    "expected_answer": "1",
+    "agent_answer": "Okay, I can help you with that. sin(\u03c0/6) is equal to 1/2, and cos(\u03c0/3) is also equal to 1/2. Therefore, sin(\u03c0/6) + cos(\u03c0/3) = 1/2 + 1/2 = 1.",
+    "source": "guardrails",
+    "response_time": 3.2861971855163574,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_006",
+    "question": "If log\u2082(x) = 3, find the value of x",
+    "expected_answer": "8",
+    "agent_answer": "If log\u2082(x) = 3, then x = 2\u00b3. Therefore, x = 8.",
+    "source": "guardrails",
+    "response_time": 3.1492390632629395,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_007",
+    "question": "Find the limit: lim(x\u21920) (sin(x)/x)",
+    "expected_answer": "1",
+    "agent_answer": "The limit of sin(x)/x as x approaches 0 is a fundamental result in calculus. It's a classic example often used when introducing limits and derivatives. The limit is equal to 1.\nlim(x\u21920) (sin(x)/x) = 1\nThis result can be shown using several methods, including L'H\u00f4pital's Rule (since direct substitution gives the indeterminate form 0/0) or by using the Squeeze Theorem (also known as the Sandwich Theorem). Geometrically, it can be understood by considering the unit circle and the areas of related triangles and sectors as x approaches 0.\nIs there anything else I can help you with regarding this limit or other calculus problems?",
+    "source": "guardrails",
+    "response_time": 4.060273885726929,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_008",
+    "question": "Calculate the area under the curve y = x^2 from x = 0 to x = 2",
+    "expected_answer": "8/3",
+    "agent_answer": "Sure, I can help you with that. The area under the curve y = x^2 from x = 0 to x = 2 can be calculated using integration.\nThe definite integral of x^2 from 0 to 2 is:\n\u222b[0 to 2] x^2 dx = [x^3 / 3] evaluated from 0 to 2\n= (2^3 / 3) - (0^3 / 3)\n= 8/3 - 0\n= 8/3\nTherefore, the area under the curve y = x^2 from x = 0 to x = 2 is 8/3, or approximately 2.67 square units.",
+    "source": "guardrails",
+    "response_time": 4.279081583023071,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  },
+  {
+    "question_id": "jee_009",
+    "question": "Solve for x: e^(2x) - 3e^x + 2 = 0",
+    "expected_answer": "x = 0, x = ln(2)",
+    "agent_answer": "Okay, let's solve the equation e^(2x) - 3e^x + 2 = 0. Here's how we can approach it:\n1.  **Substitution:** Let's make a substitution to simplify the equation. Let  `y = e^x`.  Then, the equation becomes:\n`y^2 - 3y + 2 = 0`\n2.  **Factoring:** This is a quadratic equation in `y`. We can factor it as follows:\n`(y - 1)(y - 2) = 0`\n3.  **Solve for y:**  This gives us two possible solutions for `y`:\n*   `y - 1 = 0  =>  y = 1`\n*   `y - 2 = 0  =>  y = 2`\n4.  **Substitute back for x:** Now we need to substitute back `e^x` for `y` and solve for `x`:\n*   Case 1: `e^x = 1`\nTo solve this, take the natural logarithm (ln) of both sides:\n`ln(e^x) = ln(1)`\n`x = 0`  (Since `ln(1) = 0`)\n*   Case 2: `e^x = 2`\nAgain, take the natural logarithm of both sides:\n`ln(e^x) = ln(2)`\n`x = ln(2)`\nTherefore, the solutions for x are:\n*   `x = 0`\n*   `x = ln(2)`\nSo, the final answer is x = 0 and x = ln(2). Let me know if you'd like me to show the steps in more detail or if you have any other questions!",
+    "source": "guardrails",
+    "response_time": 6.399129152297974,
+    "is_correct": false,
+    "similarity_score": 0.02564102564102564,
+    "error": null
+  },
+  {
+    "question_id": "jee_010",
+    "question": "Find the equation of the tangent line to y = x^3 at x = 2",
+    "expected_answer": "y = 12x - 16",
+    "agent_answer": "To find the equation of the tangent line to y = x^3 at x = 2, we need to find the slope of the tangent line and a point on the line.\nFirst, we find the derivative of y = x^3, which is y' = 3x^2. This derivative gives us the slope of the tangent line at any point x.\nNext, we evaluate the derivative at x = 2 to find the slope of the tangent line at that specific point:\ny'(2) = 3 * (2^2) = 3 * 4 = 12.\nSo, the slope of the tangent line at x = 2 is 12.\nNow, we need to find the y-coordinate of the point on the curve where x = 2.\ny = (2^3) = 8.\nSo, the point is (2, 8).\nUsing the point-slope form of a line, y - y1 = m(x - x1), where m is the slope and (x1, y1) is the point, we can write the equation of the tangent line:\ny - 8 = 12(x - 2).\nSimplifying this equation, we get:\ny - 8 = 12x - 24\ny = 12x - 24 + 8\ny = 12x - 16.\nTherefore, the equation of the tangent line to y = x^3 at x = 2 is y = 12x - 16.",
+    "source": "guardrails",
+    "response_time": 6.838176012039185,
+    "is_correct": true,
+    "similarity_score": 0.8,
+    "error": null
+  }
+]

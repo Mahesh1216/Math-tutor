@@ -1,0 +1,112 @@
+[
+  {
+    "question_id": "jee_001",
+    "question": "Find the derivative of f(x) = 3x^4 + 2x^3 - x^2 + 5x - 1",
+    "expected_answer": "12x^3 + 6x^2 - 2x + 5",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.313386917114258,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_002",
+    "question": "Solve the equation: 2x^2 - 8x + 6 = 0",
+    "expected_answer": "x = 1, x = 3",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.308993339538574,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_003",
+    "question": "Find the integral of \u222b(3x^2 + 4x - 2)dx",
+    "expected_answer": "x^3 + 2x^2 - 2x + C",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.3198187351226807,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_004",
+    "question": "Calculate the determinant of the 2x2 matrix [[3, 4], [1, 2]]",
+    "expected_answer": "2",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.3055505752563477,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_005",
+    "question": "Find the value of sin(\u03c0/6) + cos(\u03c0/3)",
+    "expected_answer": "1",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.3112781047821045,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_006",
+    "question": "If log\u2082(x) = 3, find the value of x",
+    "expected_answer": "8",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.306447982788086,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_007",
+    "question": "Find the limit: lim(x\u21920) (sin(x)/x)",
+    "expected_answer": "1",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.283672571182251,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_008",
+    "question": "Calculate the area under the curve y = x^2 from x = 0 to x = 2",
+    "expected_answer": "8/3",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.308873176574707,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_009",
+    "question": "Solve for x: e^(2x) - 3e^x + 2 = 0",
+    "expected_answer": "x = 0, x = ln(2)",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.281552314758301,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  },
+  {
+    "question_id": "jee_010",
+    "question": "Find the equation of the tangent line to y = x^3 at x = 2",
+    "expected_answer": "y = 12x - 16",
+    "agent_answer": "ERROR",
+    "source": "error",
+    "response_time": 2.279350996017456,
+    "is_correct": false,
+    "similarity_score": 0.0,
+    "error": "All connection attempts failed"
+  }
+]
